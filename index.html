@@ -505,17 +505,18 @@ html{
     letter-spacing:1px;
   }
 
-  .menu.mobile-active{
+.menu.mobile-active{
     display:flex !important;
     flex-direction:column;
     position:absolute;
     top:100%;
     left:0;
     width:100%;
-    background:white;
+    background:#fff;
     padding:15px 0;
     box-shadow:0 8px 20px rgba(0,0,0,0.1);
     text-align:center;
+    z-index:999;
 }
 
 .menu.mobile-active a{
@@ -848,6 +849,16 @@ const menu = document.querySelector(".menu");
 
 toggle.addEventListener("click", () => {
     menu.classList.toggle("mobile-active");
+
+    toggle.textContent =
+        menu.classList.contains("mobile-active") ? "✕" : "☰";
+});
+
+document.querySelectorAll(".menu a").forEach(link => {
+    link.addEventListener("click", () => {
+        menu.classList.remove("mobile-active");
+        toggle.textContent = "☰";
+    });
 });
 </script>
 
