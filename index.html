@@ -505,6 +505,23 @@ html{
     letter-spacing:1px;
   }
 
+  .menu.mobile-active{
+    display:flex !important;
+    flex-direction:column;
+    position:absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    background:white;
+    padding:15px 0;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+.menu.mobile-active a{
+    margin:10px 0;
+}
+
 }
 
 </style>
@@ -825,6 +842,14 @@ gtag('config', 'G-3FK968N34L');
   </div>
 </footer>
 
+<script>
+const toggle = document.querySelector(".menu-toggle");
+const menu = document.querySelector(".menu");
+
+toggle.addEventListener("click", () => {
+    menu.classList.toggle("mobile-active");
+});
+</script>
 
 </body>
 </html>
