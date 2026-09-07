@@ -70,6 +70,45 @@ content="Historias visuales de montañas, fauna y paisajes remotos fotografiados
 <meta name="twitter:image"
 content="https://lostaperture.com/img/lost-aperture-cover.jpg">
 
+<!-- ================================= -->
+<!-- STRUCTURED DATA / JSON-LD -->
+<!-- ================================= -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://lostaperture.com/#website",
+      "url": "https://lostaperture.com/",
+      "name": "Lost Aperture",
+      "description": "Lost Aperture es un diario de fotografía de paisaje y viajes de Carles Torres, con historias visuales sobre montañas, fauna y lugares remotos.",
+      "inLanguage": "es",
+      "publisher": {
+        "@id": "https://lostaperture.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://lostaperture.com/#organization",
+      "name": "Lost Aperture",
+      "url": "https://lostaperture.com/",
+      "founder": {
+        "@id": "https://lostaperture.com/#carles-torres"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://lostaperture.com/#carles-torres",
+      "name": "Carles Torres",
+      "url": "https://lostaperture.com/",
+      "jobTitle": "Fotógrafo de paisaje y viajes"
+    }
+  ]
+}
+</script>
+
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <style>

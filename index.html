@@ -70,6 +70,45 @@ content="Visual stories from mountains, wildlife and remote landscapes photograp
 <meta name="twitter:image"
 content="https://lostaperture.com/img/lost-aperture-cover.jpg">
 
+<!-- ================================= -->
+<!-- STRUCTURED DATA / JSON-LD -->
+<!-- ================================= -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://lostaperture.com/#website",
+      "url": "https://lostaperture.com/",
+      "name": "Lost Aperture",
+      "description": "Lost Aperture is a landscape and travel photography journal by Carles Torres, documenting mountains, wildlife and remote places through visual stories.",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://lostaperture.com/#organization"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://lostaperture.com/#organization",
+      "name": "Lost Aperture",
+      "url": "https://lostaperture.com/",
+      "founder": {
+        "@id": "https://lostaperture.com/#carles-torres"
+      }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://lostaperture.com/#carles-torres",
+      "name": "Carles Torres",
+      "url": "https://lostaperture.com/",
+      "jobTitle": "Landscape and Travel Photographer"
+    }
+  ]
+}
+</script>
+
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
 
 <style>
