@@ -1,37 +1,424 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
+  <!-- HOME EN -->
   <url>
     <loc>https://lostaperture.com/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://lostaperture.com/" />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://lostaperture.com/es/" />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://lostaperture.com/" />
   </url>
+
+  <!-- HOME ES -->
+  <url>
+    <loc>https://lostaperture.com/es/</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://lostaperture.com/" />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://lostaperture.com/es/" />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://lostaperture.com/" />
+  </url>
+
+
+  <!-- THE FRAGILE BALANCE OF NATURE -->
 
   <url>
     <loc>https://lostaperture.com/the-fragile-balance-of-nature.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/the-fragile-balance-of-nature.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/the-fragile-balance-of-nature.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/the-fragile-balance-of-nature.html" />
   </url>
+
+  <url>
+    <loc>https://lostaperture.com/es/the-fragile-balance-of-nature.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/the-fragile-balance-of-nature.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/the-fragile-balance-of-nature.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/the-fragile-balance-of-nature.html" />
+  </url>
+
+
+  <!-- BETWEEN SEA AND STONE -->
 
   <url>
     <loc>https://lostaperture.com/between-sea-and-stone.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/between-sea-and-stone.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/between-sea-and-stone.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/between-sea-and-stone.html" />
   </url>
+
+  <url>
+    <loc>https://lostaperture.com/es/between-sea-and-stone.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/between-sea-and-stone.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/between-sea-and-stone.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/between-sea-and-stone.html" />
+  </url>
+
+
+  <!-- INTO THE WILD -->
 
   <url>
     <loc>https://lostaperture.com/into-the-wild.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/into-the-wild.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/into-the-wild.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/into-the-wild.html" />
   </url>
+
+  <url>
+    <loc>https://lostaperture.com/es/into-the-wild.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/into-the-wild.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/into-the-wild.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/into-the-wild.html" />
+  </url>
+
+
+  <!-- WHERE MOUNTAINS MEET THE SKY -->
 
   <url>
     <loc>https://lostaperture.com/where-mountains-meet-the-sky.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/where-mountains-meet-the-sky.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/where-mountains-meet-the-sky.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/where-mountains-meet-the-sky.html" />
   </url>
+
+  <url>
+    <loc>https://lostaperture.com/es/where-mountains-meet-the-sky.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/where-mountains-meet-the-sky.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/where-mountains-meet-the-sky.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/where-mountains-meet-the-sky.html" />
+  </url>
+
+
+  <!-- THE MOUNTAIN OF LEGENDS -->
 
   <url>
     <loc>https://lostaperture.com/the-mountain-of-legends.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/the-mountain-of-legends.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/the-mountain-of-legends.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/the-mountain-of-legends.html" />
   </url>
 
   <url>
-    <loc>https://lostaperture.com/cathedrals-of-stone.html</loc>
+    <loc>https://lostaperture.com/es/the-mountain-of-legends.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/the-mountain-of-legends.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/the-mountain-of-legends.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/the-mountain-of-legends.html" />
   </url>
 
-<url>
-  <loc>https://lostaperture.com/the-edge-of-the-alps.html</loc>
-</url>
+
+  <!-- CATHEDRALS OF STONE -->
+
+  <url>
+    <loc>https://lostaperture.com/cathedrals-of-stone.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/cathedrals-of-stone.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/cathedrals-of-stone.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/cathedrals-of-stone.html" />
+  </url>
+
+  <url>
+    <loc>https://lostaperture.com/es/cathedrals-of-stone.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/cathedrals-of-stone.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/cathedrals-of-stone.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/cathedrals-of-stone.html" />
+  </url>
+
+
+  <!-- THE EDGE OF THE ALPS -->
+
+  <url>
+    <loc>https://lostaperture.com/the-edge-of-the-alps.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/the-edge-of-the-alps.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/the-edge-of-the-alps.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/the-edge-of-the-alps.html" />
+  </url>
+
+  <url>
+    <loc>https://lostaperture.com/es/the-edge-of-the-alps.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/the-edge-of-the-alps.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/the-edge-of-the-alps.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/the-edge-of-the-alps.html" />
+  </url>
+
+
+  <!-- GIANTS OF THE NORTH -->
+
+  <url>
+    <loc>https://lostaperture.com/Giants-of-the-North.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/Giants-of-the-North.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/Giants-of-the-North.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/Giants-of-the-North.html" />
+  </url>
+
+  <url>
+    <loc>https://lostaperture.com/es/Giants-of-the-North.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/Giants-of-the-North.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/Giants-of-the-North.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/Giants-of-the-North.html" />
+  </url>
+
+
+  <!-- THE PEARL OF THE DOLOMITES -->
+
+  <url>
+    <loc>https://lostaperture.com/The-Pearl-of-the-Dolomites.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/The-Pearl-of-the-Dolomites.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/The-Pearl-of-the-Dolomites.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/The-Pearl-of-the-Dolomites.html" />
+  </url>
+
+  <url>
+    <loc>https://lostaperture.com/es/The-Pearl-of-the-Dolomites.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/The-Pearl-of-the-Dolomites.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/The-Pearl-of-the-Dolomites.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/The-Pearl-of-the-Dolomites.html" />
+  </url>
+
+
+  <!-- THE LOST VALLEY -->
+
+  <url>
+    <loc>https://lostaperture.com/The-Lost-Valley.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/The-Lost-Valley.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/The-Lost-Valley.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/The-Lost-Valley.html" />
+  </url>
+
+  <url>
+    <loc>https://lostaperture.com/es/The-Lost-Valley.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/The-Lost-Valley.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/The-Lost-Valley.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/The-Lost-Valley.html" />
+  </url>
+
+
+  <!-- VALLEY OF WATERFALLS -->
+
+  <url>
+    <loc>https://lostaperture.com/Valley-of-Waterfalls.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/Valley-of-Waterfalls.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/Valley-of-Waterfalls.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/Valley-of-Waterfalls.html" />
+  </url>
+
+  <url>
+    <loc>https://lostaperture.com/es/Valley-of-Waterfalls.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/Valley-of-Waterfalls.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/Valley-of-Waterfalls.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/Valley-of-Waterfalls.html" />
+  </url>
+
+
+  <!-- SILENT GIANTS -->
+
+  <url>
+    <loc>https://lostaperture.com/silent-giants.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/silent-giants.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/silent-giants.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/silent-giants.html" />
+  </url>
+
+  <url>
+    <loc>https://lostaperture.com/es/silent-giants.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/silent-giants.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/silent-giants.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/silent-giants.html" />
+  </url>
+
+
+  <!-- CONGOST DE FRAGUERAU -->
+
+  <url>
+    <loc>https://lostaperture.com/Congost-de-Fraguerau.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/Congost-de-Fraguerau.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/Congost-de-Fraguerau.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/Congost-de-Fraguerau.html" />
+  </url>
+
+  <url>
+    <loc>https://lostaperture.com/es/Congost-de-Fraguerau.html</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/Congost-de-Fraguerau.html" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/Congost-de-Fraguerau.html" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/Congost-de-Fraguerau.html" />
+  </url>
 
 </urlset>
