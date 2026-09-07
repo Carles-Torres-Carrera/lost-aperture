@@ -918,7 +918,7 @@ gtag('config', 'G-3FK968N34L');
 
     <div class="card big">
 
-      <img src="img/congost2.jpg" alt="The Fragile Balance of Nature">
+      <img src="img/congost2.jpg" alt="Congost de Fraguerau">
 
       <div class="overlay">
         <h2>Congost de Fraguerau</h2>
@@ -1075,6 +1075,248 @@ document.querySelectorAll(".menu a").forEach(link => {
 
 </script>
 
+<!-- ================================= -->
+<!-- DAILY ARTICLE ROTATION -->
+<!-- ================================= -->
+
+<script>
+
+(function(){
+
+  /* ================================
+     BIG ARTICLES
+     ================================ */
+
+  const bigStories = [
+
+    {
+      href: "the-fragile-balance-of-nature.html",
+      image: "img/portada.jpg",
+      title: "The Fragile Balance of Nature"
+    },
+
+    {
+      href: "where-mountains-meet-the-sky.html",
+      image: "img/portada1.jpg",
+      title: "Where Mountains Meet the Sky"
+    },
+
+    {
+      href: "the-edge-of-the-alps.html",
+      image: "img/SaxerHorizontal.jpg",
+      title: "The Edge of the Alps"
+    },
+
+    {
+      href: "Giants-of-the-North.html",
+      image: "img/Ballena3.jpg",
+      title: "Giants of the North"
+    },
+
+    {
+      href: "Congost-de-Fraguerau.html",
+      image: "img/congost2.jpg",
+      title: "Congost de Fraguerau"
+    }
+
+  ];
+
+
+  /* ================================
+     SMALL ARTICLES
+     ================================ */
+
+  const smallStories = [
+
+    {
+      href: "into-the-wild.html",
+      image: "img/Foto1.jpg",
+      title: "Into the Wild"
+    },
+
+    {
+      href: "between-sea-and-stone.html",
+      image: "img/Foto2.JPG",
+      title: "Between Sea and Stone"
+    },
+
+    {
+      href: "the-mountain-of-legends.html",
+      image: "img/mount1.jpg",
+      title: "The Mountain of Legends"
+    },
+
+    {
+      href: "cathedrals-of-stone.html",
+      image: "img/trescime3.jpg",
+      title: "Cathedrals of Stone"
+    },
+
+    {
+      href: "The-Pearl-of-the-Dolomites.html",
+      image: "img/Dibraiesbarcos.jpg",
+      title: "The Pearl of the Dolomites"
+    },
+
+    {
+      href: "The-Lost-Valley.html",
+      image: "img/Ordesa2.jpg",
+      title: "The Lost Valley"
+    },
+
+    {
+      href: "Valley-of-Waterfalls.html",
+      image: "img/Lauterbrunnen2.jpg",
+      title: "Valley of Waterfalls"
+    },
+
+    {
+      href: "silent-giants.html",
+      image: "img/iceberg1.jpg",
+      title: "Silent Giants"
+    }
+
+  ];
+
+
+  /* ================================
+     CALCULATE CURRENT DAY
+     ================================ */
+
+  const now = new Date();
+
+  const dayNumber = Math.floor(
+    Date.UTC(
+      now.getFullYear(),
+      now.getMonth(),
+      now.getDate()
+    ) / 86400000
+  );
+
+
+  /* ================================
+     ROTATION FUNCTION
+     ================================ */
+
+  function rotate(list, amount){
+
+    const shift = amount % list.length;
+
+    return list
+      .slice(shift)
+      .concat(
+        list.slice(0, shift)
+      );
+
+  }
+
+
+  /* ================================
+     PUT ARTICLES INTO CARDS
+     ================================ */
+
+  function fillSlots(selector, stories){
+
+    const slots =
+      Array.from(
+        document.querySelectorAll(selector)
+      );
+
+
+    slots.forEach((link, index) => {
+
+      const story = stories[index];
+
+      if(!story) return;
+
+
+      const img =
+        link.querySelector("img");
+
+      const title =
+        link.querySelector("h2");
+
+
+      /* ARTICLE LINK */
+
+      link.href =
+        story.href;
+
+
+      /* IMAGE */
+
+      if(img){
+
+        img.src =
+          story.image;
+
+        img.alt =
+          story.title;
+
+      }
+
+
+      /* TITLE */
+
+      if(title){
+
+        title.textContent =
+          story.title;
+
+      }
+
+    });
+
+  }
+
+
+  /* ================================
+     DAILY ROTATION
+     ================================ */
+
+  const rotatedBigStories =
+    rotate(
+      bigStories,
+      dayNumber
+    );
+
+
+  const rotatedSmallStories =
+    rotate(
+      smallStories,
+      dayNumber
+    );
+
+
+  /* ================================
+     BIG POSITIONS
+     ================================ */
+
+  fillSlots(
+
+    '.card-link:not(.hidden-template):has(.card.big)',
+
+    rotatedBigStories
+
+  );
+
+
+  /* ================================
+     SMALL POSITIONS
+     ================================ */
+
+  fillSlots(
+
+    '.card-link:not(.hidden-template):has(.card.small)',
+
+    rotatedSmallStories
+
+  );
+
+
+})();
+
+</script>
 
 </body>
 
