@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="icon" href="/favicon.ico">
+<link rel="icon" type="image/png" href="../img/favicon1.png">
+
+<!-- ================================= -->
+<!-- SEO -->
+<!-- ================================= -->
+
+<title>Artículos | Lost Aperture — Fotografía de Paisaje y Viajes</title>
+
+<meta name="description"
+content="Explora todos los reportajes fotográficos de Lost Aperture, desde Islandia y los Alpes hasta los Dolomitas, Noruega y los Pirineos.">
+
+<meta name="author" content="Carles Torres">
+
+<link rel="canonical" href="https://lostaperture.com/es/stories.html">
+
+<!-- LANGUAGE VERSIONS -->
+
+<link rel="alternate" hreflang="en"
+href="https://lostaperture.com/stories.html">
+
+<link rel="alternate" hreflang="es"
+href="https://lostaperture.com/es/stories.html">
+
+<link rel="alternate" hreflang="x-default"
+href="https://lostaperture.com/stories.html">
+
+<!-- OPEN GRAPH -->
+
+<meta property="og:title"
+content="Artículos | Lost Aperture">
+
+<meta property="og:description"
+content="Explora historias visuales de montañas, fauna y paisajes remotos fotografiados por Carles Torres.">
+
+<meta property="og:image"
+content="https://lostaperture.com/img/lost-aperture-cover.jpg">
+
+<meta property="og:image:width" content="3840">
+<meta property="og:image:height" content="1920">
+
+<meta property="og:type" content="website">
+
+<meta property="og:url"
+content="https://lostaperture.com/es/stories.html">
+
+<meta property="og:site_name"
+content="Lost Aperture">
+
+<meta property="og:locale"
+content="es_ES">
+
+<meta property="og:locale:alternate"
+content="en_US">
+
+<!-- TWITTER / SOCIAL -->
+
+<meta name="twitter:card"
+content="summary_large_image">
+
+<meta name="twitter:title"
+content="Artículos | Lost Aperture">
+
+<meta name="twitter:description"
+content="Explora historias visuales de montañas, fauna y paisajes remotos fotografiados por Carles Torres.">
+
+<meta name="twitter:image"
+content="https://lostaperture.com/img/lost-aperture-cover.jpg">
+
+<!-- ================================= -->
+<!-- STRUCTURED DATA / JSON-LD -->
+<!-- ================================= -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "@id": "https://lostaperture.com/es/stories.html#collection",
+  "url": "https://lostaperture.com/es/stories.html",
+  "name": "Artículos | Lost Aperture",
+  "description": "Una colección de historias de fotografía de paisaje, fauna y viajes de Carles Torres.",
+  "isPartOf": {
+    "@id": "https://lostaperture.com/#website"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Carles Torres"
+  },
+  "inLanguage": "es"
+}
+</script>
+
+<!-- FONTS -->
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+
+/* ================================= */
+/* BODY */
+/* ================================= */
+
+*{
+  box-sizing:border-box;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  font-family:'Inter', sans-serif;
+  background:#fff;
+  color:#111;
+  overflow-y:scroll;
+}
+
+
+/* ================================= */
+/* HEADER */
+/* ================================= */
+
+header{
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  z-index:100;
+  background:rgba(255,255,255,0.9);
+  backdrop-filter:blur(8px);
+}
+
+.nav{
+  max-width:1200px;
+  margin:auto;
+  display:flex;
+  align-items:center;
+  padding:10px 40px;
+  justify-content:space-between;
+}
+
+
+/* LOGO */
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  text-decoration:none;
+  color:#222;
+}
+
+.logo img{
+  height:44px;
+  opacity:0.9;
+  filter:grayscale(100%);
+}
+
+.logo-name{
+  font-family:'Playfair Display';
+  font-size:0.85em;
+  letter-spacing:4px;
+  color:#222;
+}
+
+
+/* MENU */
+
+.menu{
+  display:flex;
+  gap:15px;
+}
+
+.menu a{
+  color:#111;
+  text-decoration:none;
+  margin-left:30px;
+  font-size:0.8em;
+  letter-spacing:2px;
+  transition:0.3s;
+}
+
+.menu a:hover{
+  color:#ffcc00;
+}
+
+.menu a.active{
+  color:#ffcc00;
+}
+
+
+/* LANGUAGE SWITCH */
+
+.language-switch{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  margin-left:20px;
+}
+
+.language-switch a{
+  text-decoration:none;
+  color:#777;
+  font-size:0.8em;
+  letter-spacing:2px;
+  transition:0.3s;
+}
+
+.language-switch a:hover{
+  color:#ffcc00;
+}
+
+.active-lang{
+  color:#111;
+  font-weight:600;
+}
+
+.language-switch span{
+  font-size:0.8em;
+  letter-spacing:2px;
+}
+
+
+/* MOBILE MENU */
+
+.menu-toggle{
+  display:none;
+}
+
+
+/* ================================= */
+/* STORIES INTRO */
+/* ================================= */
+
+.stories-intro{
+  max-width:850px;
+  margin:0 auto;
+  padding:170px 30px 85px;
+  text-align:center;
+}
+
+.stories-kicker{
+  margin:0 0 18px;
+  font-size:0.72rem;
+  font-weight:500;
+  letter-spacing:5px;
+  text-transform:uppercase;
+  color:#999;
+}
+
+.stories-intro h1{
+  margin:0;
+  font-family:'Playfair Display';
+  font-size:4.2rem;
+  font-weight:600;
+  letter-spacing:2px;
+}
+
+.stories-intro .intro-line{
+  width:45px;
+  height:2px;
+  background:#ffcc00;
+  margin:30px auto;
+}
+
+.stories-intro p{
+  max-width:620px;
+  margin:0 auto;
+  color:#666;
+  line-height:1.8;
+  font-size:1rem;
+  font-weight:300;
+}
+
+
+/* ================================= */
+/* STORIES GRID */
+/* ================================= */
+
+.stories-grid{
+  max-width:1200px;
+  margin:0 auto 130px;
+  padding:0 20px;
+
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  column-gap:28px;
+  row-gap:60px;
+}
+
+
+/* STORY CARD */
+
+.story-card{
+  text-decoration:none;
+  color:#111;
+  display:block;
+}
+
+.story-image{
+  position:relative;
+  overflow:hidden;
+  background:#eee;
+  aspect-ratio:3 / 2;
+}
+
+.story-image img{
+  width:100%;
+  height:100%;
+  display:block;
+  object-fit:cover;
+  transition:transform 0.6s ease;
+}
+
+.story-image::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0);
+  transition:background 0.4s ease;
+}
+
+.story-card:hover .story-image img{
+  transform:scale(1.045);
+}
+
+.story-card:hover .story-image::after{
+  background:rgba(0,0,0,0.08);
+}
+
+
+/* STORY TEXT */
+
+.story-info{
+  padding-top:18px;
+}
+
+.story-location{
+  margin:0 0 9px;
+  color:#999;
+  font-size:0.68rem;
+  font-weight:500;
+  letter-spacing:2.2px;
+  text-transform:uppercase;
+}
+
+.story-info h2{
+  font-family:'Playfair Display';
+  font-size:1.55rem;
+  font-weight:600;
+  line-height:1.25;
+  margin:0;
+  transition:color 0.3s ease;
+}
+
+.story-card:hover h2{
+  color:#b38f00;
+}
+
+
+/* ================================= */
+/* FOOTER */
+/* ================================= */
+
+footer{
+  background:#111;
+  color:#aaa;
+  text-align:center;
+  padding:40px 0;
+  width:100%;
+}
+
+footer p{
+  font-size:0.8em;
+  letter-spacing:1px;
+}
+
+.footer-content{
+  max-width:1200px;
+  margin:auto;
+}
+
+
+/* ================================= */
+/* TABLET */
+/* ================================= */
+
+@media (max-width:950px){
+
+  .stories-grid{
+    grid-template-columns:repeat(2, 1fr);
+  }
+
+}
+
+
+/* ================================= */
+/* MOBILE */
+/* ================================= */
+
+@media (max-width:768px){
+
+  .nav{
+    position:relative;
+    padding:10px 15px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+  }
+
+  .logo-name{
+    font-size:0.7em;
+    letter-spacing:2px;
+  }
+
+  .menu{
+    display:none;
+  }
+
+  .menu-toggle{
+    display:block;
+    position:absolute;
+    left:58%;
+    transform:translateX(-50%);
+    font-size:28px;
+    cursor:pointer;
+  }
+
+  .language-switch{
+    margin:0;
+    gap:4px;
+  }
+
+  .language-switch a,
+  .language-switch span{
+    font-size:0.75rem;
+    letter-spacing:1px;
+  }
+
+  .menu.mobile-active{
+    display:flex !important;
+    flex-direction:column;
+    position:absolute;
+    top:100%;
+    left:0;
+    width:100%;
+    background:#fff;
+    padding:15px 0;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    text-align:center;
+    z-index:999;
+  }
+
+  .menu.mobile-active a{
+    margin:10px 0;
+  }
+
+
+  /* INTRO MOBILE */
+
+  .stories-intro{
+    padding:135px 25px 60px;
+  }
+
+  .stories-kicker{
+    font-size:0.65rem;
+    letter-spacing:4px;
+  }
+
+  .stories-intro h1{
+    font-size:2.8rem;
+  }
+
+  .stories-intro .intro-line{
+    margin:24px auto;
+  }
+
+  .stories-intro p{
+    font-size:0.9rem;
+    line-height:1.7;
+  }
+
+
+  /* GRID MOBILE */
+
+  .stories-grid{
+    display:grid;
+    grid-template-columns:1fr;
+    gap:45px;
+    padding:0 18px;
+    margin-bottom:90px;
+  }
+
+  .story-info{
+    padding-top:14px;
+  }
+
+  .story-info h2{
+    font-size:1.45rem;
+  }
+
+}
+
+
+/* VERY SMALL MOBILE */
+
+@media (max-width:380px){
+
+  .logo img{
+    height:38px;
+  }
+
+  .logo-name{
+    font-size:0.62em;
+  }
+
+  .stories-intro h1{
+    font-size:2.4rem;
+  }
+
+}
+
+</style>
+
+
+<!-- ================================= -->
+<!-- GOOGLE ANALYTICS -->
+<!-- ================================= -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-3FK968N34L"></script>
+
+<script>
+
+window.dataLayer = window.dataLayer || [];
+
+function gtag(){
+  dataLayer.push(arguments);
+}
+
+gtag('js', new Date());
+
+gtag('config', 'G-3FK968N34L');
+
+</script>
+
+</head>
+
+
+<body>
+
+
+<!-- ================================= -->
+<!-- HEADER -->
+<!-- ================================= -->
+
+<header>
+
+  <div class="nav">
+
+    <!-- LOGO -->
+
+    <a href="index.html" class="logo">
+
+      <img src="../img/logo2.png" alt="Lost Aperture">
+
+      <span class="logo-name">
+        LOST APERTURE
+      </span>
+
+    </a>
+
+
+    <!-- MENU -->
+
+    <div class="menu">
+
+      <a href="index.html">Inicio</a>
+
+      <a href="stories.html" class="active">Artículos</a>
+
+      <a href="index.html#about">Sobre mí</a>
+
+    </div>
+
+
+    <!-- MOBILE MENU -->
+
+    <div class="menu-toggle">☰</div>
+
+
+    <!-- LANGUAGE -->
+
+    <div class="language-switch">
+
+      <a href="../stories.html">EN</a>
+
+      <span>/</span>
+
+      <span class="active-lang">ES</span>
+
+    </div>
+
+  </div>
+
+</header>
+
+
+<!-- ================================= -->
+<!-- STORIES INTRO -->
+<!-- ================================= -->
+
+<main>
+
+<section class="stories-intro">
+
+  <p class="stories-kicker">
+    El diario
+  </p>
+
+  <h1>Artículos</h1>
+
+  <div class="intro-line"></div>
+
+  <p>
+    Viajes entre montañas, fauna y paisajes remotos.
+    Una colección de lugares, momentos e historias descubiertas más allá del objetivo.
+  </p>
+
+</section>
+
+
+<!-- ================================= -->
+<!-- STORIES GRID -->
+<!-- ================================= -->
+
+<section class="stories-grid">
+
+
+  <!-- 01 — CONGOST DE FRAGUERAU -->
+
+  <a href="./Congost-de-Fraguerau.html" class="story-card">
+
+    <div class="story-image">
+
+      <img
+        src="../img/congost2.jpg"
+        alt="Congost de Fraguerau"
+        loading="lazy">
+
+    </div>
+
+    <div class="story-info">
+
+      <p class="story-location">
+        Montsant · España
+      </p>
+
+      <h2>
+        Congost de Fraguerau
+      </h2>
+
+    </div>
+
+  </a>
+
+
+  <!-- 02 — THE FRAGILE BALANCE OF NATURE -->
+
+  <a href="./the-fragile-balance-of-nature.html" class="story-card">
+
+    <div class="story-image">
+
+      <img
+        src="../img/portada.jpg"
+        alt="The Fragile Balance of Nature"
+        loading="lazy">
+
+    </div>
+
+    <div class="story-info">
+
+      <p class="story-location">
+        Thingvellir · Islandia
+      </p>
+
+      <h2>
+        The Fragile Balance of Nature
+      </h2>
+
+    </div>
+
+  </a>
+
+
+  <!-- 03 — WHERE MOUNTAINS MEET THE SKY -->
+
+  <a href="./where-mountains-meet-the-sky.html" class="story-card">
+
+    <div class="story-image">
+
+      <img
+        src="../img/portada1.jpg"
+        alt="Where Mountains Meet the Sky"
+        loading="lazy">
+
+    </div>
+
+    <div class="story-info">
+
+      <p class="story-location">
+        Bachalpsee · Suiza
+      </p>
+
+      <h2>
+        Where Mountains Meet the Sky
+      </h2>
+
+    </div>
+
+  </a>
+
+
+  <!-- 04 — THE EDGE OF THE ALPS -->
+
+  <a href="./the-edge-of-the-alps.html" class="story-card">
+
+    <div class="story-image">
+
+      <img
+        src="../img/SaxerHorizontal.jpg"
+        alt="The Edge of the Alps"
+        loading="lazy">
+
+    </div>
+
+    <div class="story-info">
+
+      <p class="story-location">
+        Saxer Lücke · Suiza
+      </p>
+
+      <h2>
+        The Edge of the Alps
+      </h2>
+
+    </div>
+
+  </a>
+
+
+  <!-- 05 — GIANTS OF THE NORTH -->
+
+  <a href="./Giants-of-the-North.html" class="story-card">
+
+    <div class="story-image">
+
+      <img
+        src="../img/Ballena3.jpg"
+        alt="Giants of the North"
+        loading="lazy">
+
+    </div>
+
+    <div class="story-info">
+
+      <p class="story-location">
+        Húsavík · Islandia
+      </p>
+
+      <h2>
+        Giants of the North
+      </h2>
+
+    </div>
+
+  </a>
+
+
+  <!-- 06 — INTO THE WILD -->
+
+  <a href="./into-the-wild.html" class="story-card">
+
+    <div class="story-image">
+
+      <img
+        src="../img/Foto1.jpg"
+        alt="Into the Wild"
+        loading="lazy">
+
+    </div>
+
+    <div class="story-info">
+
+      <p class="story-location">
+        Kvaløya · Noruega
+      </p>
+
+      <h2>
+        Into the Wild
+      </h2>
+
+    </div>
+
+  </a>
+
+
+  <!-- 07 — BETWEEN SEA AND STONE -->
+
+  <a href="./between-sea-and-stone.html" class="story-card">
+
+    <div class="story-image">
+
+      <img
+        src="../img/Foto2.JPG"
+        alt="Between Sea and Stone"
+        loading="lazy">
+
+    </div>
+
+    <div class="story-info">
+
+      <p class="story-location">
+        Henningsvær · Noruega
+      </p>
+
+      <h2>
+        Between Sea and Stone
+      </h2>
+
+    </div>
+
+  </a>
+
+
+  <!-- 08 — THE MOUNTAIN OF LEGENDS -->
+
+  <a href="./the-mountain-of-legends.html" class="story-card">
+
+    <div class="story-image">
+
+      <img
+        src="../img/mount1.jpg"
+        alt="The Mountain of Legends"
+        loading="lazy">
+
+    </div>
+
+    <div class="story-info">
+
+      <p class="story-location">
+        Kirkjufell · Islandia
+      </p>
+
+      <h2>
+        The Mountain of Legends
+      </h2>
+
+    </div>
+
+  </a>
+
+
+  <!-- 09 — CATHEDRALS OF STONE -->
+
+  <a href="./cathedrals-of-stone.html" class="story-card">
+
+    <div class="story-image">
+
+      <img
+        src="../img/trescime3.jpg"
+        alt="Cathedrals of Stone"
+        loading="lazy">
+
+    </div>
+
+    <div class="story-info">
+
+      <p class="story-location">
+        Tre Cime · Dolomitas
+      </p>
+
+      <h2>
+        Cathedrals of Stone
+      </h2>
+
+    </div>
+
+  </a>
+
+
+  <!-- 10 — THE PEARL OF THE DOLOMITES -->
+
+  <a href="./The-Pearl-of-the-Dolomites.html" class="story-card">
+
+    <div class="story-image">
+
+      <img
+        src="../img/Dibraiesbarcos.jpg"
+        alt="The Pearl of the Dolomites"
+        loading="lazy">
+
+    </div>
+
+    <div class="story-info">
+
+      <p class="story-location">
+        Lago di Braies · Dolomitas
+      </p>
+
+      <h2>
+        The Pearl of the Dolomites
+      </h2>
+
+    </div>
+
+  </a>
+
+
+  <!-- 11 — THE LOST VALLEY -->
+
+  <a href="./The-Lost-Valley.html" class="story-card">
+
+    <div class="story-image">
+
+      <img
+        src="../img/Ordesa2.jpg"
+        alt="The Lost Valley"
+        loading="lazy">
+
+    </div>
+
+    <div class="story-info">
+
+      <p class="story-location">
+        Ordesa · Pirineos
+      </p>
+
+      <h2>
+        The Lost Valley
+      </h2>
+
+    </div>
+
+  </a>
+
+
+  <!-- 12 — VALLEY OF WATERFALLS -->
+
+  <a href="./Valley-of-Waterfalls.html" class="story-card">
+
+    <div class="story-image">
+
+      <img
+        src="../img/Lauterbrunnen2.jpg"
+        alt="Valley of Waterfalls"
+        loading="lazy">
+
+    </div>
+
+    <div class="story-info">
+
+      <p class="story-location">
+        Lauterbrunnen · Suiza
+      </p>
+
+      <h2>
+        Valley of Waterfalls
+      </h2>
+
+    </div>
+
+  </a>
+
+
+  <!-- 13 — SILENT GIANTS -->
+
+  <a href="./silent-giants.html" class="story-card">
+
+    <div class="story-image">
+
+      <img
+        src="../img/iceberg1.jpg"
+        alt="Silent Giants"
+        loading="lazy">
+
+    </div>
+
+    <div class="story-info">
+
+      <p class="story-location">
+        Jökulsárlón · Islandia
+      </p>
+
+      <h2>
+        Silent Giants
+      </h2>
+
+    </div>
+
+  </a>
+
+
+</section>
+
+</main>
+
+
+<!-- ================================= -->
+<!-- FOOTER -->
+<!-- ================================= -->
+
+<footer>
+
+  <div class="footer-content">
+
+    <p>© 2026 Lost Aperture</p>
+
+  </div>
+
+</footer>
+
+
+<!-- ================================= -->
+<!-- MOBILE MENU -->
+<!-- ================================= -->
+
+<script>
+
+const toggle = document.querySelector(".menu-toggle");
+const menu = document.querySelector(".menu");
+
+toggle.addEventListener("click", () => {
+
+  menu.classList.toggle("mobile-active");
+
+  toggle.textContent =
+    menu.classList.contains("mobile-active") ? "✕" : "☰";
+
+});
+
+
+document.querySelectorAll(".menu a").forEach(link => {
+
+  link.addEventListener("click", () => {
+
+    menu.classList.remove("mobile-active");
+
+    toggle.textContent = "☰";
+
+  });
+
+});
+
+</script>
+
+
+</body>
+
+</html>

@@ -45,6 +45,54 @@
   </url>
 
 
+<!-- ================================= -->
+<!-- STORIES — ENGLISH -->
+<!-- ================================= -->
+
+<url>
+  <loc>https://lostaperture.com/stories.html</loc>
+
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="https://lostaperture.com/stories.html" />
+
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="https://lostaperture.com/es/stories.html" />
+
+  <xhtml:link
+    rel="alternate"
+    hreflang="x-default"
+    href="https://lostaperture.com/stories.html" />
+</url>
+
+
+<!-- ================================= -->
+<!-- STORIES — SPANISH -->
+<!-- ================================= -->
+
+<url>
+  <loc>https://lostaperture.com/es/stories.html</loc>
+
+  <xhtml:link
+    rel="alternate"
+    hreflang="en"
+    href="https://lostaperture.com/stories.html" />
+
+  <xhtml:link
+    rel="alternate"
+    hreflang="es"
+    href="https://lostaperture.com/es/stories.html" />
+
+  <xhtml:link
+    rel="alternate"
+    hreflang="x-default"
+    href="https://lostaperture.com/stories.html" />
+</url>
+
+
   <!-- THE FRAGILE BALANCE OF NATURE -->
 
   <url>
