@@ -110,6 +110,7 @@ content="https://lostaperture.com/img/iceberg1.jpg">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
 
 <style>
+
 body{
   margin:0;
   font-family:'Inter', sans-serif;
@@ -118,12 +119,14 @@ body{
 }
 
 /* HERO */
+
 .hero{
   height:55vh;
   background:url('../img/iceberg1.jpg') center 60% /cover no-repeat;
 }
 
 /* CONTENT */
+
 .content{
   max-width:800px;
   margin:60px auto;
@@ -156,6 +159,7 @@ body{
   margin-bottom:20px;
   color:#111;
 }
+
 .content p{
   line-height:1.8;
   color:#444;
@@ -163,6 +167,7 @@ body{
 }
 
 /* BACK LINK */
+
 .back{
   position:absolute;
   top:20px;
@@ -172,30 +177,32 @@ body{
   font-size:0.9em;
 }
 
+/* IMAGES */
+
 .post-img{
   width:100%;
   margin:30px 0;
   border-radius:8px;
-  transition: transform .35s ease;
+  transition:transform .35s ease;
 }
 
 .post-img:hover{
-    transform: scale(1.02);
+  transform:scale(1.02);
 }
 
 a[data-fancybox],
 a[data-fancybox]:focus,
 a[data-fancybox]:active,
-a[data-fancybox]:visited {
-    outline: none !important;
-    border: none !important;
-    box-shadow: none !important;
+a[data-fancybox]:visited{
+  outline:none !important;
+  border:none !important;
+  box-shadow:none !important;
 }
 
-a[data-fancybox] img {
-    outline: none !important;
-    border: none !important;
-    box-shadow: none !important;
+a[data-fancybox] img{
+  outline:none !important;
+  border:none !important;
+  box-shadow:none !important;
 }
 
 .quote{
@@ -207,14 +214,79 @@ a[data-fancybox] img {
 }
 
 .post-video{
-    width:100%;
-    margin:30px 0;
-    border-radius:8px;
+  width:100%;
+  margin:30px 0;
+  border-radius:8px;
 }
 
-/*mobile*/
+/* RELATED STORIES */
+
+.related-stories{
+  margin-top:70px;
+}
+
+.related-stories h2{
+  margin-bottom:30px;
+}
+
+.related-grid{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:22px;
+}
+
+.related-card{
+  text-decoration:none;
+  color:#111;
+  display:block;
+}
+
+.related-card-image{
+  aspect-ratio:3/2;
+  overflow:hidden;
+  border-radius:8px;
+  margin-bottom:14px;
+}
+
+.related-card img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  transition:transform .4s ease;
+}
+
+.related-card:hover img{
+  transform:scale(1.04);
+}
+
+.related-card h3{
+  font-family:'Playfair Display';
+  font-size:1.15em;
+  margin:0 0 6px;
+  line-height:1.25;
+}
+
+.related-card p{
+  font-size:0.75em;
+  letter-spacing:1.5px;
+  text-transform:uppercase;
+  color:#888;
+  margin:0;
+}
+
+/* MOBILE */
 
 @media (max-width:768px){
+
+  .related-grid{
+    grid-template-columns:1fr;
+    gap:35px;
+  }
+
+  .related-card h3{
+    font-size:1.3em;
+  }
 
   .content h1{
     font-size:2.2em;
@@ -229,6 +301,7 @@ a[data-fancybox] img {
 </style>
 
 <!-- Google Analytics -->
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3FK968N34L"></script>
 
 <script>
@@ -248,7 +321,7 @@ gtag('config', 'G-3FK968N34L');
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
 <script>
-  Fancybox.bind("[data-fancybox]", {});
+Fancybox.bind("[data-fancybox]", {});
 </script>
 
 <body>
@@ -285,7 +358,10 @@ Para los fotógrafos es un sueño hecho realidad. Para los amantes de la natural
    data-fancybox="gallery"
    data-caption="Icebergs milenarios derivando sobre las aguas de la laguna glaciar de Jökulsárlón">
 
-<img src="../img/iceberg1.jpg" alt="Icebergs milenarios derivando sobre las aguas de la laguna glaciar de Jökulsárlón" class="post-img">
+<img src="../img/iceberg1.jpg"
+     alt="Icebergs milenarios derivando sobre las aguas de la laguna glaciar de Jökulsárlón"
+     class="post-img">
+
 </a>
 
 <p>
@@ -330,7 +406,10 @@ Esta combinación única de volcanes activos y gigantescas masas de hielo dio or
    data-fancybox="gallery"
    data-caption="Los tonos azules del hielo revelan siglos de compresión en el glaciar Vatnajökull">
 
-<img src="../img/iceberg2.jpg" alt="Los tonos azules del hielo revelan siglos de compresión en el glaciar Vatnajökull" class="post-img">
+<img src="../img/iceberg2.jpg"
+     alt="Los tonos azules del hielo revelan siglos de compresión en el glaciar Vatnajökull"
+     class="post-img">
+
 </a>
 
 <p>
@@ -338,8 +417,8 @@ La verdadera escala de Jökulsárlón resulta difícil de capturar en una sola f
 </p>
 
 <video class="post-video" controls preload="metadata">
-    <source src="../video/foca1.mp4" type="video/mp4">
-      Tu navegador no admite la reproducción de vídeo.
+  <source src="../video/foca1.mp4" type="video/mp4">
+  Tu navegador no admite la reproducción de vídeo.
 </video>
 
 <h2>Vida entre el hielo</h2>
@@ -394,7 +473,10 @@ Su organismo contiene tanta grasa aislante que las aguas heladas de Jökulsárl�
    data-fancybox="gallery"
    data-caption="Una foca emerge entre icebergs a la deriva en uno de los ecosistemas más extraordinarios de Islandia">
 
-<img src="../img/iceberg3.jpg" alt="Una foca emerge entre icebergs a la deriva en uno de los ecosistemas más extraordinarios de Islandia" class="post-img">
+<img src="../img/iceberg3.jpg"
+     alt="Una foca emerge entre icebergs a la deriva en uno de los ecosistemas más extraordinarios de Islandia"
+     class="post-img">
+
 </a>
 
 <p>
@@ -402,8 +484,8 @@ Uno de los grandes atractivos de visitar Jökulsárlón es observar a las focas 
 </p>
 
 <video class="post-video" controls preload="metadata">
-    <source src="../video/foca2.mp4" type="video/mp4">
-      Tu navegador no admite la reproducción de vídeo.
+  <source src="../video/foca2.mp4" type="video/mp4">
+  Tu navegador no admite la reproducción de vídeo.
 </video>
 
 <h2>Un paisaje en constante movimiento</h2>
@@ -454,6 +536,18 @@ Pocos rincones del planeta reúnen fuerzas naturales tan poderosas en un mismo e
 Jökulsárlón nos recuerda que las mayores maravillas de la naturaleza suelen ser también las más silenciosas. Los gigantes de este lugar no rugen ni se imponen. Simplemente avanzan sobre el agua, transportando en su interior siglos de historia.
 </p>
 
+<!-- ARTÍCULOS RELACIONADOS -->
+
+<section class="related-stories">
+
+<h2>Artículos relacionados</h2>
+
+<div class="related-grid" id="relatedStories"></div>
+
+</section>
+
+<!-- FICHA FOTOGRÁFICA -->
+
 <h2>Ficha fotográfica</h2>
 
 <p>
@@ -474,6 +568,140 @@ Fotógrafo: Carles Torres
 
 </div>
 
+<!-- ARTÍCULOS RELACIONADOS SCRIPT -->
+
+<script>
+
+const relatedStories = [
+
+  {
+    title: "The Fragile Balance of Nature",
+    location: "Thingvellir · Islandia",
+    url: "the-fragile-balance-of-nature.html",
+    image: "../img/portada.jpg"
+  },
+
+  {
+    title: "Where Mountains Meet the Sky",
+    location: "Bachalpsee · Suiza",
+    url: "where-mountains-meet-the-sky.html",
+    image: "../img/portada1.jpg"
+  },
+
+  {
+    title: "The Edge of the Alps",
+    location: "Saxer Lücke · Suiza",
+    url: "the-edge-of-the-alps.html",
+    image: "../img/SaxerHorizontal.jpg"
+  },
+
+  {
+    title: "Giants of the North",
+    location: "Húsavík · Islandia",
+    url: "Giants-of-the-North.html",
+    image: "../img/Ballena3.jpg"
+  },
+
+  {
+    title: "Congost de Fraguerau",
+    location: "Montsant · España",
+    url: "Congost-de-Fraguerau.html",
+    image: "../img/congost2.jpg"
+  },
+
+  {
+    title: "Into the Wild",
+    location: "Kvaløya · Noruega",
+    url: "into-the-wild.html",
+    image: "../img/Foto1.jpg"
+  },
+
+  {
+    title: "Between Sea and Stone",
+    location: "Henningsvær · Noruega",
+    url: "between-sea-and-stone.html",
+    image: "../img/Foto2.JPG"
+  },
+
+  {
+    title: "The Mountain of Legends",
+    location: "Kirkjufell · Islandia",
+    url: "the-mountain-of-legends.html",
+    image: "../img/mount1.jpg"
+  },
+
+  {
+    title: "Cathedrals of Stone",
+    location: "Tre Cime · Dolomitas",
+    url: "cathedrals-of-stone.html",
+    image: "../img/trescime3.jpg"
+  },
+
+  {
+    title: "The Pearl of the Dolomites",
+    location: "Lago di Braies · Dolomitas",
+    url: "The-Pearl-of-the-Dolomites.html",
+    image: "../img/Dibraiesbarcos.jpg"
+  },
+
+  {
+    title: "The Lost Valley",
+    location: "Ordesa · España",
+    url: "The-Lost-Valley.html",
+    image: "../img/Ordesa2.jpg"
+  },
+
+  {
+    title: "Valley of Waterfalls",
+    location: "Lauterbrunnen · Suiza",
+    url: "Valley-of-Waterfalls.html",
+    image: "../img/Lauterbrunnen2.jpg"
+  },
+
+  {
+    title: "Silent Giants",
+    location: "Jökulsárlón · Islandia",
+    url: "silent-giants.html",
+    image: "../img/iceberg1.jpg"
+  }
+
+];
+
+const currentArticle =
+  window.location.pathname.split("/").pop() ||
+  "silent-giants.html";
+
+const availableStories = relatedStories.filter(
+  story => story.url !== currentArticle
+);
+
+const shuffledStories = [...availableStories]
+  .sort(() => Math.random() - 0.5)
+  .slice(0, 3);
+
+document.getElementById("relatedStories").innerHTML =
+  shuffledStories.map(story => `
+
+    <a href="${story.url}" class="related-card">
+
+      <div class="related-card-image">
+
+        <img
+          src="${story.image}"
+          alt="${story.title}"
+          loading="lazy"
+        >
+
+      </div>
+
+      <h3>${story.title}</h3>
+      <p>${story.location}</p>
+
+    </a>
+
+  `).join("");
+
+</script>
 
 </body>
 </html>

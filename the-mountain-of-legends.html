@@ -106,11 +106,11 @@ content="https://lostaperture.com/img/mount2.jpg">
 }
 </script>
 
-
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
 
 <style>
+
 body{
   margin:0;
   font-family:'Inter', sans-serif;
@@ -119,12 +119,14 @@ body{
 }
 
 /* HERO */
+
 .hero{
   height:55vh;
   background:url('img/mount1.jpg') center /cover no-repeat;
 }
 
 /* CONTENT */
+
 .content{
   max-width:800px;
   margin:60px auto;
@@ -157,6 +159,7 @@ body{
   margin-bottom:20px;
   color:#111;
 }
+
 .content p{
   line-height:1.8;
   color:#444;
@@ -164,6 +167,7 @@ body{
 }
 
 /* BACK LINK */
+
 .back{
   position:absolute;
   top:20px;
@@ -177,26 +181,26 @@ body{
   width:100%;
   margin:30px 0;
   border-radius:8px;
-  transition: transform .35s ease;
+  transition:transform .35s ease;
 }
 
 .post-img:hover{
-    transform: scale(1.02);
+  transform:scale(1.02);
 }
 
 a[data-fancybox],
 a[data-fancybox]:focus,
 a[data-fancybox]:active,
-a[data-fancybox]:visited {
-    outline: none !important;
-    border: none !important;
-    box-shadow: none !important;
+a[data-fancybox]:visited{
+  outline:none !important;
+  border:none !important;
+  box-shadow:none !important;
 }
 
-a[data-fancybox] img {
-    outline: none !important;
-    border: none !important;
-    box-shadow: none !important;
+a[data-fancybox] img{
+  outline:none !important;
+  border:none !important;
+  box-shadow:none !important;
 }
 
 .quote{
@@ -207,9 +211,74 @@ a[data-fancybox] img {
   color:#555;
 }
 
-/*mobile*/
+/* RELATED STORIES */
+
+.related-stories{
+  margin-top:70px;
+}
+
+.related-stories h2{
+  margin-bottom:30px;
+}
+
+.related-grid{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:22px;
+}
+
+.related-card{
+  text-decoration:none;
+  color:#111;
+  display:block;
+}
+
+.related-card-image{
+  aspect-ratio:3/2;
+  overflow:hidden;
+  border-radius:8px;
+  margin-bottom:14px;
+}
+
+.related-card img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  transition:transform .4s ease;
+}
+
+.related-card:hover img{
+  transform:scale(1.04);
+}
+
+.related-card h3{
+  font-family:'Playfair Display';
+  font-size:1.15em;
+  margin:0 0 6px;
+  line-height:1.25;
+}
+
+.related-card p{
+  font-size:0.75em;
+  letter-spacing:1.5px;
+  text-transform:uppercase;
+  color:#888;
+  margin:0;
+}
+
+/* MOBILE */
 
 @media (max-width:768px){
+
+  .related-grid{
+    grid-template-columns:1fr;
+    gap:35px;
+  }
+
+  .related-card h3{
+    font-size:1.3em;
+  }
 
   .content h1{
     font-size:2.2em;
@@ -224,9 +293,11 @@ a[data-fancybox] img {
 </style>
 
 <!-- Google Analytics -->
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3FK968N34L"></script>
 
 <script>
+
 window.dataLayer = window.dataLayer || [];
 
 function gtag() {
@@ -236,6 +307,7 @@ function gtag() {
 gtag('js', new Date());
 
 gtag('config', 'G-3FK968N34L');
+
 </script>
 
 </head>
@@ -243,7 +315,9 @@ gtag('config', 'G-3FK968N34L');
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
 <script>
-  Fancybox.bind("[data-fancybox]", {});
+
+Fancybox.bind("[data-fancybox]", {});
+
 </script>
 
 <body>
@@ -280,7 +354,9 @@ During my journey through western Iceland, I had the opportunity to witness Kirk
    data-fancybox="gallery"
    data-caption="Kirkjufell mountain on the Snæfellsnes Peninsula in Iceland">
 
-<img src="img/mount1.jpg" alt="Kirkjufell mountain on the Snæfellsnes Peninsula in Iceland" class="post-img">
+<img src="img/mount1.jpg"
+     alt="Kirkjufell mountain on the Snæfellsnes Peninsula in Iceland"
+     class="post-img">
 
 </a>
 
@@ -348,11 +424,14 @@ A mountain as distinctive as Kirkjufell naturally became part of this tradition.
 Even now, the idea that something ancient and unseen exists beyond the visible world feels strangely believable among Iceland's vast volcanic wilderness.
 </p>
 
- <a href="img/mount2.jpg"
+<a href="img/mount2.jpg"
    data-fancybox="gallery"
    data-caption="Kirkjufell mountain on the Snæfellsnes Peninsula in Iceland">
 
-<img src="img/mount2.jpg" alt="Kirkjufell mountain on the Snæfellsnes Peninsula in Iceland" class="post-img">
+<img src="img/mount2.jpg"
+     alt="Kirkjufell mountain on the Snæfellsnes Peninsula in Iceland"
+     class="post-img">
+
 </a>
 
 <h2>Beneath the Northern Lights</h2>
@@ -425,13 +504,17 @@ By day, Kirkjufell stands as one of Iceland's most iconic natural landmarks. By 
 For travellers it is a destination. For photographers it is a dream. And for anyone fortunate enough to witness it beneath the Arctic sky, it becomes a memory impossible to forget.
 </p>
 
+<!-- RELATED STORIES -->
+
+<section class="related-stories">
+
 <h2>Related Stories</h2>
 
-<p>
-Explore another Icelandic landscape in
-<a href="into-the-wild.html"> Into the Wild.</a>
-A photographic story from the rugged and untamed wilderness of Iceland.
-</p>
+<div class="related-grid" id="relatedStories"></div>
+
+</section>
+
+<!-- PHOTO NOTES -->
 
 <h2>Photo Notes</h2>
 
@@ -451,6 +534,140 @@ Photographer: Carles Torres
 
 </div>
 
+<!-- RELATED STORIES SCRIPT -->
+
+<script>
+
+const relatedStories = [
+
+  {
+    title: "The Fragile Balance of Nature",
+    location: "Thingvellir · Iceland",
+    url: "the-fragile-balance-of-nature.html",
+    image: "img/portada.jpg"
+  },
+
+  {
+    title: "Where Mountains Meet the Sky",
+    location: "Bachalpsee · Switzerland",
+    url: "where-mountains-meet-the-sky.html",
+    image: "img/portada1.jpg"
+  },
+
+  {
+    title: "The Edge of the Alps",
+    location: "Saxer Lücke · Switzerland",
+    url: "the-edge-of-the-alps.html",
+    image: "img/SaxerHorizontal.jpg"
+  },
+
+  {
+    title: "Giants of the North",
+    location: "Húsavík · Iceland",
+    url: "Giants-of-the-North.html",
+    image: "img/Ballena3.jpg"
+  },
+
+  {
+    title: "Congost de Fraguerau",
+    location: "Montsant · Spain",
+    url: "Congost-de-Fraguerau.html",
+    image: "img/congost2.jpg"
+  },
+
+  {
+    title: "Into the Wild",
+    location: "Kvaløya · Norway",
+    url: "into-the-wild.html",
+    image: "img/Foto1.jpg"
+  },
+
+  {
+    title: "Between Sea and Stone",
+    location: "Henningsvær · Norway",
+    url: "between-sea-and-stone.html",
+    image: "img/Foto2.JPG"
+  },
+
+  {
+    title: "The Mountain of Legends",
+    location: "Kirkjufell · Iceland",
+    url: "the-mountain-of-legends.html",
+    image: "img/mount1.jpg"
+  },
+
+  {
+    title: "Cathedrals of Stone",
+    location: "Tre Cime · Dolomites",
+    url: "cathedrals-of-stone.html",
+    image: "img/trescime3.jpg"
+  },
+
+  {
+    title: "The Pearl of the Dolomites",
+    location: "Lago di Braies · Dolomites",
+    url: "The-Pearl-of-the-Dolomites.html",
+    image: "img/Dibraiesbarcos.jpg"
+  },
+
+  {
+    title: "The Lost Valley",
+    location: "Ordesa · Spain",
+    url: "The-Lost-Valley.html",
+    image: "img/Ordesa2.jpg"
+  },
+
+  {
+    title: "Valley of Waterfalls",
+    location: "Lauterbrunnen · Switzerland",
+    url: "Valley-of-Waterfalls.html",
+    image: "img/Lauterbrunnen2.jpg"
+  },
+
+  {
+    title: "Silent Giants",
+    location: "Jökulsárlón · Iceland",
+    url: "silent-giants.html",
+    image: "img/iceberg1.jpg"
+  }
+
+];
+
+const currentArticle =
+  window.location.pathname.split("/").pop() ||
+  "the-mountain-of-legends.html";
+
+const availableStories = relatedStories.filter(
+  story => story.url !== currentArticle
+);
+
+const shuffledStories = [...availableStories]
+  .sort(() => Math.random() - 0.5)
+  .slice(0, 3);
+
+document.getElementById("relatedStories").innerHTML =
+  shuffledStories.map(story => `
+
+    <a href="${story.url}" class="related-card">
+
+      <div class="related-card-image">
+
+        <img
+          src="${story.image}"
+          alt="${story.title}"
+          loading="lazy"
+        >
+
+      </div>
+
+      <h3>${story.title}</h3>
+      <p>${story.location}</p>
+
+    </a>
+
+  `).join("");
+
+</script>
 
 </body>
 </html>

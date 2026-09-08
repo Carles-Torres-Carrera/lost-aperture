@@ -267,6 +267,63 @@ a[data-fancybox] img{
 }
 
 
+/* RELATED STORIES */
+
+.related-stories{
+  margin-top:70px;
+}
+
+.related-stories h2{
+  margin-bottom:30px;
+}
+
+.related-grid{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:22px;
+}
+
+.related-card{
+  text-decoration:none;
+  color:#111;
+  display:block;
+}
+
+.related-card-image{
+  aspect-ratio:3/2;
+  overflow:hidden;
+  border-radius:8px;
+  margin-bottom:14px;
+}
+
+.related-card img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  transition:transform .4s ease;
+}
+
+.related-card:hover img{
+  transform:scale(1.04);
+}
+
+.related-card h3{
+  font-family:'Playfair Display';
+  font-size:1.15em;
+  margin:0 0 6px;
+  line-height:1.25;
+}
+
+.related-card p{
+  font-size:0.75em;
+  letter-spacing:1.5px;
+  text-transform:uppercase;
+  color:#888;
+  margin:0;
+}
+
+
 /* PHOTO NOTES */
 
 .photo-notes{
@@ -301,6 +358,15 @@ a[data-fancybox] img{
     letter-spacing:2px;
   }
 
+  .related-grid{
+    grid-template-columns:1fr;
+    gap:35px;
+  }
+
+  .related-card h3{
+    font-size:1.3em;
+  }
+
 }
 
 </style>
@@ -329,7 +395,6 @@ gtag('config', 'G-3FK968N34L');
 </head>
 
 
-
 <body>
 
 
@@ -341,7 +406,6 @@ gtag('config', 'G-3FK968N34L');
 <!-- HERO -->
 
 <div class="hero"></div>
-
 
 
 <!-- ARTICLE -->
@@ -360,7 +424,6 @@ The Hidden Gorge of Montsant, Where Rock, Water and Time Tell the Same Story
 <p class="meta">
 Photographs & Story by Carles Torres · DJI Mini 2
 </p>
-
 
 
 <p>
@@ -383,7 +446,6 @@ Here, geology, water, wildlife and human history occupy the same narrow valley.
 </p>
 
 
-
 <!-- PHOTO 1 -->
 
 <a href="img/congost1.jpg"
@@ -395,7 +457,6 @@ Here, geology, water, wildlife and human history occupy the same narrow valley.
        class="post-img">
 
 </a>
-
 
 
 <h2>Where Water Begins the Story</h2>
@@ -421,7 +482,6 @@ It is an appropriate entrance to Fraguerau, because almost everything that follo
 </p>
 
 
-
 <!-- PHOTO 2 -->
 
 <a href="img/congost2.jpg"
@@ -433,7 +493,6 @@ It is an appropriate entrance to Fraguerau, because almost everything that follo
        class="post-img">
 
 </a>
-
 
 
 <h2>A Landscape Sculpted by Time</h2>
@@ -464,7 +523,6 @@ Over millions of years, water has exploited fractures and weaker layers within t
 </p>
 
 
-
 <!-- PHOTO 3 -->
 
 <a href="img/congost33.jpg"
@@ -476,7 +534,6 @@ Over millions of years, water has exploited fractures and weaker layers within t
        class="post-img">
 
 </a>
-
 
 
 <h2>The Geological Connection with Montserrat</h2>
@@ -522,7 +579,6 @@ What looks permanent is, in reality, a landscape still being transformed.
 </p>
 
 
-
 <!-- PHOTO 4 -->
 
 <a href="img/congost4.jpg"
@@ -534,7 +590,6 @@ What looks permanent is, in reality, a landscape still being transformed.
        class="post-img">
 
 </a>
-
 
 
 <h2>Shapes Hidden in Stone</h2>
@@ -575,7 +630,6 @@ Giving names to these formations turns geology into memory. A mass of rock becom
 </p>
 
 
-
 <!-- PHOTO 5 -->
 
 <a href="img/congost5.jpg"
@@ -587,7 +641,6 @@ Giving names to these formations turns geology into memory. A mass of rock becom
        class="post-img">
 
 </a>
-
 
 
 <h2>Beneath the Mountain</h2>
@@ -623,7 +676,6 @@ These natural shelters also help explain why Montsant has attracted human occupa
 </p>
 
 
-
 <!-- PHOTO 6 -->
 
 <a href="img/congost6.jpg"
@@ -635,7 +687,6 @@ These natural shelters also help explain why Montsant has attracted human occupa
        class="post-img">
 
 </a>
-
 
 
 <h2>A Different Landscape from Above</h2>
@@ -676,7 +727,6 @@ The enormous formations that dominate the trail become pieces of a much larger g
 </p>
 
 
-
 <!-- PHOTO 7 -->
 
 <a href="img/congost7.jpg"
@@ -688,7 +738,6 @@ The enormous formations that dominate the trail become pieces of a much larger g
        class="post-img">
 
 </a>
-
 
 
 <h2>Life Above the Cliffs</h2>
@@ -734,7 +783,6 @@ Their presence adds another dimension to the landscape. The gorge exists at grou
 </p>
 
 
-
 <!-- PHOTO 8 -->
 
 <a href="img/congost8.jpg"
@@ -746,7 +794,6 @@ Their presence adds another dimension to the landscape. The gorge exists at grou
        class="post-img">
 
 </a>
-
 
 
 <h2>The Wild Goats of Montsant</h2>
@@ -787,7 +834,6 @@ The return and expansion of the Iberian wild goat in Montsant is also one of the
 </p>
 
 
-
 <h2>A River Through Stone</h2>
 
 
@@ -824,7 +870,6 @@ Along the river, vegetation becomes denser and temperatures can feel noticeably 
 <p>
 The contrast is one of the defining characteristics of Fraguerau: a humid corridor running through an otherwise dry Mediterranean mountain landscape.
 </p>
-
 
 
 <h2>The Human Story of Fraguerau</h2>
@@ -873,7 +918,6 @@ The same cliffs that make the landscape spectacular also create isolation. The r
 <p>
 For centuries, that isolation was precisely what some people came here looking for.
 </p>
-
 
 
 <h2>A Place of Silence</h2>
@@ -930,7 +974,6 @@ Individually, they are small moments.
 <p>
 Together, they tell the story of the place.
 </p>
-
 
 
 <h2>Where Rock and Time Meet</h2>
@@ -1004,6 +1047,16 @@ Its story has been written slowly.
 </p>
 
 
+<!-- RELATED STORIES -->
+
+<section class="related-stories">
+
+<h2>Related Stories</h2>
+
+<div class="related-grid" id="relatedStories"></div>
+
+</section>
+
 
 <!-- PHOTO NOTES -->
 
@@ -1035,6 +1088,141 @@ Photographer: Carles Torres
 
 </div>
 
+
+<!-- RELATED STORIES SCRIPT -->
+
+<script>
+
+const relatedStories = [
+
+  {
+    title: "The Fragile Balance of Nature",
+    location: "Thingvellir · Iceland",
+    url: "the-fragile-balance-of-nature.html",
+    image: "img/portada.jpg"
+  },
+
+  {
+    title: "Where Mountains Meet the Sky",
+    location: "Bachalpsee · Switzerland",
+    url: "where-mountains-meet-the-sky.html",
+    image: "img/portada1.jpg"
+  },
+
+  {
+    title: "The Edge of the Alps",
+    location: "Saxer Lücke · Switzerland",
+    url: "the-edge-of-the-alps.html",
+    image: "img/SaxerHorizontal.jpg"
+  },
+
+  {
+    title: "Giants of the North",
+    location: "Húsavík · Iceland",
+    url: "Giants-of-the-North.html",
+    image: "img/Ballena3.jpg"
+  },
+
+  {
+    title: "Congost de Fraguerau",
+    location: "Montsant · Spain",
+    url: "Congost-de-Fraguerau.html",
+    image: "img/congost2.jpg"
+  },
+
+  {
+    title: "Into the Wild",
+    location: "Kvaløya · Norway",
+    url: "into-the-wild.html",
+    image: "img/Foto1.jpg"
+  },
+
+  {
+    title: "Between Sea and Stone",
+    location: "Henningsvær · Norway",
+    url: "between-sea-and-stone.html",
+    image: "img/Foto2.JPG"
+  },
+
+  {
+    title: "The Mountain of Legends",
+    location: "Kirkjufell · Iceland",
+    url: "the-mountain-of-legends.html",
+    image: "img/mount1.jpg"
+  },
+
+  {
+    title: "Cathedrals of Stone",
+    location: "Tre Cime · Dolomites",
+    url: "cathedrals-of-stone.html",
+    image: "img/trescime3.jpg"
+  },
+
+  {
+    title: "The Pearl of the Dolomites",
+    location: "Lago di Braies · Dolomites",
+    url: "The-Pearl-of-the-Dolomites.html",
+    image: "img/Dibraiesbarcos.jpg"
+  },
+
+  {
+    title: "The Lost Valley",
+    location: "Ordesa · Spain",
+    url: "The-Lost-Valley.html",
+    image: "img/Ordesa2.jpg"
+  },
+
+  {
+    title: "Valley of Waterfalls",
+    location: "Lauterbrunnen · Switzerland",
+    url: "Valley-of-Waterfalls.html",
+    image: "img/Lauterbrunnen2.jpg"
+  },
+
+  {
+    title: "Silent Giants",
+    location: "Jökulsárlón · Iceland",
+    url: "silent-giants.html",
+    image: "img/iceberg1.jpg"
+  }
+
+];
+
+const currentArticle =
+  window.location.pathname.split("/").pop() ||
+  "Congost-de-Fraguerau.html";
+
+const availableStories = relatedStories.filter(
+  story => story.url !== currentArticle
+);
+
+const shuffledStories = [...availableStories]
+  .sort(() => Math.random() - 0.5)
+  .slice(0, 3);
+
+document.getElementById("relatedStories").innerHTML =
+  shuffledStories.map(story => `
+
+    <a href="${story.url}" class="related-card">
+
+      <div class="related-card-image">
+
+        <img
+          src="${story.image}"
+          alt="${story.title}"
+          loading="lazy"
+        >
+
+      </div>
+
+      <h3>${story.title}</h3>
+      <p>${story.location}</p>
+
+    </a>
+
+  `).join("");
+
+</script>
 
 
 <!-- FANCYBOX -->

@@ -74,7 +74,6 @@ content="Un viaje fotográfico por el Congost de Fraguerau, entre roca, agua, fa
 <meta name="twitter:image"
 content="https://lostaperture.com/img/congost2.jpg">
 
-
 <!-- ================================= -->
 <!-- STRUCTURED DATA / JSON-LD -->
 <!-- ================================= -->
@@ -106,17 +105,14 @@ content="https://lostaperture.com/img/congost2.jpg">
 }
 </script>
 
-
 <!-- FONTS -->
 
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
-
 
 <!-- FANCYBOX -->
 
 <link rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
-
 
 <style>
 
@@ -129,7 +125,6 @@ body{
   color:#111;
 }
 
-
 /* HERO */
 
 .hero{
@@ -137,7 +132,6 @@ body{
   background:url('../img/congost2.jpg') center 50% / cover no-repeat;
   position:relative;
 }
-
 
 /* HERO DARK GRADIENT */
 
@@ -152,7 +146,6 @@ body{
   );
 }
 
-
 /* CONTENT */
 
 .content{
@@ -161,13 +154,11 @@ body{
   padding:0 20px;
 }
 
-
 .content h1{
   font-family:'Playfair Display';
   font-size:3em;
   margin-bottom:20px;
 }
-
 
 .subtitle{
   color:#777;
@@ -177,13 +168,11 @@ body{
   margin-bottom:40px;
 }
 
-
 .meta{
   color:#888;
   font-size:0.85em;
   margin-bottom:40px;
 }
-
 
 .content h2{
   font-family:'Playfair Display';
@@ -193,13 +182,11 @@ body{
   color:#111;
 }
 
-
 .content p{
   line-height:1.8;
   color:#444;
   margin-bottom:20px;
 }
-
 
 /* BACK LINK */
 
@@ -214,11 +201,9 @@ body{
   text-shadow:0 2px 10px rgba(0,0,0,0.5);
 }
 
-
 .back:hover{
   opacity:0.8;
 }
-
 
 /* IMAGES */
 
@@ -230,11 +215,9 @@ body{
   display:block;
 }
 
-
 .post-img:hover{
   transform:scale(1.02);
 }
-
 
 a[data-fancybox],
 a[data-fancybox]:focus,
@@ -245,13 +228,11 @@ a[data-fancybox]:visited{
   box-shadow:none !important;
 }
 
-
 a[data-fancybox] img{
   outline:none !important;
   border:none !important;
   box-shadow:none !important;
 }
-
 
 /* QUOTE */
 
@@ -264,6 +245,61 @@ a[data-fancybox] img{
   line-height:1.7;
 }
 
+/* RELATED STORIES */
+
+.related-stories{
+  margin-top:70px;
+}
+
+.related-stories h2{
+  margin-bottom:30px;
+}
+
+.related-grid{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:22px;
+}
+
+.related-card{
+  text-decoration:none;
+  color:#111;
+  display:block;
+}
+
+.related-card-image{
+  aspect-ratio:3/2;
+  overflow:hidden;
+  border-radius:8px;
+  margin-bottom:14px;
+}
+
+.related-card img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  transition:transform .4s ease;
+}
+
+.related-card:hover img{
+  transform:scale(1.04);
+}
+
+.related-card h3{
+  font-family:'Playfair Display';
+  font-size:1.15em;
+  margin:0 0 6px;
+  line-height:1.25;
+}
+
+.related-card p{
+  font-size:0.75em;
+  letter-spacing:1.5px;
+  text-transform:uppercase;
+  color:#888;
+  margin:0;
+}
 
 /* PHOTO NOTES */
 
@@ -272,7 +308,6 @@ a[data-fancybox] img{
   padding-top:20px;
   border-top:1px solid #eee;
 }
-
 
 /* MOBILE */
 
@@ -299,10 +334,18 @@ a[data-fancybox] img{
     letter-spacing:2px;
   }
 
+  .related-grid{
+    grid-template-columns:1fr;
+    gap:35px;
+  }
+
+  .related-card h3{
+    font-size:1.3em;
+  }
+
 }
 
 </style>
-
 
 <!-- GOOGLE ANALYTICS -->
 
@@ -326,61 +369,45 @@ gtag('config', 'G-3FK968N34L');
 
 </head>
 
-
-
 <body>
-
 
 <!-- BACK -->
 
 <a href="index.html" class="back">← Volver</a>
 
-
 <!-- HERO -->
 
 <div class="hero"></div>
-
-
 
 <!-- ARTICLE -->
 
 <div class="content">
 
-
 <h1>Congost de Fraguerau</h1>
-
 
 <p class="subtitle">
 El desfiladero escondido del Montsant, donde la roca, el agua y el tiempo cuentan una misma historia
 </p>
 
-
 <p class="meta">
 Fotografías y texto por Carles Torres · DJI Mini 2
 </p>
-
-
 
 <p>
 En el corazón del Parque Natural de la Serra de Montsant, más allá de los viñedos del Priorat y lejos de las carreteras más transitadas, existe un paisaje que parece pertenecer a otro ritmo del tiempo.
 </p>
 
-
 <p>
 El Congost de Fraguerau sigue el curso del río Montsant a través de un estrecho corredor rodeado por enormes paredes de conglomerado, bosque mediterráneo y extrañas formaciones rocosas modeladas lentamente durante millones de años.
 </p>
-
 
 <p>
 No es un paisaje que pueda comprenderse desde un único mirador. Fraguerau se descubre poco a poco: siguiendo el río, caminando bajo los acantilados, atravesando refugios naturales de roca y levantando la vista hacia un cielo donde los buitres giran sobre las montañas.
 </p>
 
-
 <p>
 Aquí, la geología, el agua, la fauna y la historia humana comparten un mismo valle.
 </p>
-
-
 
 <!-- FOTO 1 -->
 
@@ -394,31 +421,23 @@ Aquí, la geología, el agua, la fauna y la historia humana comparten un mismo v
 
 </a>
 
-
-
 <h2>Donde el agua comienza la historia</h2>
-
 
 <p>
 Antes de adentrarse en las zonas más profundas de Fraguerau, el río Montsant ya deja ver hasta qué punto un paisaje puede ser transformado por la paciencia.
 </p>
 
-
 <p>
 En Les Cadolles Fondes, el agua ha trabajado directamente sobre la roca, creando profundas pozas, superficies pulidas y estrechos canales. Lo que hoy puede parecer tranquilo es el resultado de incontables ciclos de agua transportando sedimentos, grava y piedras a través del mismo espacio confinado.
 </p>
-
 
 <p>
 Durante los periodos de menor caudal, las formas de la roca quedan claramente expuestas. Después de fuertes lluvias, el carácter del lugar cambia por completo, cuando el río vuelve a llenar esas cavidades naturales y recupera toda su capacidad erosiva.
 </p>
 
-
 <p>
 Es una entrada perfecta a Fraguerau, porque prácticamente todo lo que aparece después ha sido modelado por el mismo elemento.
 </p>
-
-
 
 <!-- FOTO 2 -->
 
@@ -432,36 +451,27 @@ Es una entrada perfecta a Fraguerau, porque prácticamente todo lo que aparece d
 
 </a>
 
-
-
 <h2>Un paisaje esculpido por el tiempo</h2>
-
 
 <p>
 Los orígenes de este paisaje se remontan a millones de años atrás, cuando los ríos transportaban enormes cantidades de sedimentos desde los sistemas montañosos cercanos hasta una gran cuenca.
 </p>
 
-
 <p>
 Gravas, guijarros y fragmentos de mayor tamaño fueron acumulándose en depósitos de gran espesor. Con el paso del tiempo, la presión y los minerales fueron cementando esos cantos redondeados hasta formar el conglomerado que hoy domina la Serra de Montsant.
 </p>
-
 
 <p>
 Desde la distancia, la roca puede parecer sólida y uniforme. De cerca, sin embargo, revela innumerables fracturas, repisas, cavidades y plataformas.
 </p>
 
-
 <p>
 Estas formas se han convertido en una de las señas de identidad del Montsant. También forman una extraordinaria arquitectura natural para la fauna. Las cabras montesas pueden desplazarse por estrechas repisas y superficies inclinadas de conglomerado con una facilidad que, vista desde abajo, parece casi imposible.
 </p>
 
-
 <p>
 A lo largo de millones de años, el agua ha aprovechado las fracturas y las capas más débiles de la roca, separando lentamente enormes masas de conglomerado y excavando el estrecho corredor por el que hoy discurre el río Montsant.
 </p>
-
-
 
 <!-- FOTO 3 -->
 
@@ -475,51 +485,39 @@ A lo largo de millones de años, el agua ha aprovechado las fracturas y las capa
 
 </a>
 
-
-
 <h2>La conexión geológica con Montserrat</h2>
-
 
 <p>
 Hay algo inmediatamente familiar en las formas del Montsant.
 </p>
 
-
 <p>
 Torres redondeadas, paredes verticales y enormes masas de roca con formas casi imposibles pueden recordar a otra de las montañas más emblemáticas de Cataluña: Montserrat.
 </p>
-
 
 <p>
 La similitud no es casual.
 </p>
 
-
 <p>
 Ambos paisajes están estrechamente asociados a potentes formaciones de conglomerado. Estas rocas están compuestas por fragmentos redondeados unidos por un cemento natural, pero la erosión no actúa de la misma manera sobre todas sus partes.
 </p>
-
 
 <p>
 El agua de lluvia penetra por las fracturas y juntas de la roca. Los cambios de temperatura, la gravedad y el agua en movimiento van ampliando poco a poco esos puntos débiles. Los materiales más blandos desaparecen antes, mientras que las masas más resistentes permanecen en pie.
 </p>
 
-
 <p>
 El resultado es ese relieve característico de formas redondeadas que aparece tanto en Montsant como en Montserrat.
 </p>
-
 
 <p>
 No son simplemente el resultado de una única gran falla compartida. Su aspecto característico se debe principalmente a la combinación entre la estructura geológica y millones de años de erosión diferencial.
 </p>
 
-
 <p>
 Lo que parece completamente inmóvil es, en realidad, un paisaje que continúa transformándose.
 </p>
-
-
 
 <!-- FOTO 4 -->
 
@@ -533,46 +531,35 @@ Lo que parece completamente inmóvil es, en realidad, un paisaje que continúa t
 
 </a>
 
-
-
 <h2>Formas escondidas en la piedra</h2>
-
 
 <p>
 Uno de los aspectos más fascinantes de Fraguerau es la manera en que el paisaje cambia dependiendo del lugar desde donde se observe.
 </p>
 
-
 <p>
 Vistos desde abajo, enormes bloques de conglomerado se transforman en siluetas. Rostros humanos, animales y figuras imaginarias parecen surgir de la piedra.
 </p>
-
 
 <p>
 Una de estas formaciones es conocida como <strong>El Buda</strong>.
 </p>
 
-
 <p>
 Desde el sendero situado bajo ella, la disposición de la roca crea la sorprendente impresión de una figura sentada observando el desfiladero.
 </p>
-
 
 <p>
 Por supuesto, la montaña no fue esculpida con esa imagen en mente. Es simplemente el resultado de la erosión actuando sobre fracturas y diferencias de resistencia dentro del conglomerado.
 </p>
 
-
 <p>
 Pero los lugares adquieren historias a medida que las personas pasan por ellos.
 </p>
 
-
 <p>
 Dar nombre a estas formaciones convierte la geología en memoria. Una masa de roca se transforma en un punto de referencia y, con el tiempo, ese punto de referencia acaba formando parte de la identidad del valle.
 </p>
-
-
 
 <!-- FOTO 5 -->
 
@@ -586,41 +573,31 @@ Dar nombre a estas formaciones convierte la geología en memoria. Una masa de ro
 
 </a>
 
-
-
 <h2>Bajo la montaña</h2>
-
 
 <p>
 Las fracturas y la erosión que modelan los acantilados también crean otro elemento muy característico del Montsant: los refugios naturales bajo la roca.
 </p>
 
-
 <p>
 Localmente, estas cavidades poco profundas y grandes salientes rocosos suelen conocerse como <em>baumes</em>.
 </p>
-
 
 <p>
 Algunas son lo suficientemente grandes como para ofrecer refugio. Otras se convierten en estrechos pasos donde el sendero parece desaparecer directamente bajo la montaña.
 </p>
 
-
 <p>
 Atravesar una de ellas cambia por completo la escala del paisaje.
 </p>
-
 
 <p>
 Unos metros antes, los acantilados podían parecer distantes y monumentales. De repente, la roca queda directamente sobre tu cabeza y el paso se vuelve tan bajo que es necesario agacharse para continuar.
 </p>
 
-
 <p>
 Estos refugios naturales también ayudan a comprender por qué el Montsant ha atraído durante siglos a viajeros, pobladores y ermitaños.
 </p>
-
-
 
 <!-- FOTO 6 -->
 
@@ -634,46 +611,35 @@ Estos refugios naturales también ayudan a comprender por qué el Montsant ha at
 
 </a>
 
-
-
 <h2>Un paisaje diferente desde el cielo</h2>
-
 
 <p>
 Desde el suelo, Fraguerau transmite una sensación de encierro.
 </p>
 
-
 <p>
 El río marca la dirección del recorrido y los acantilados bloquean una y otra vez el horizonte.
 </p>
-
 
 <p>
 Desde el aire, la geografía resulta mucho más fácil de comprender.
 </p>
 
-
 <p>
 El desfiladero aparece como una estrecha incisión dentro de un sistema montañoso mucho mayor. El bosque ocupa los valles más protegidos, mientras las crestas de conglomerado quedan expuestas por encima de la vegetación.
 </p>
-
 
 <p>
 El curso del río Montsant puede seguirse mientras serpentea entre las formaciones rocosas, mostrando hasta qué punto el agua se ha introducido en el interior del macizo.
 </p>
 
-
 <p>
 La fotografía aérea cambia por completo la escala de la experiencia.
 </p>
 
-
 <p>
 Las enormes formaciones que dominan el sendero pasan a convertirse en pequeñas piezas de una estructura geológica mucho mayor, y la ruta recorrida a pie se transforma en una fina línea dentro de la montaña.
 </p>
-
-
 
 <!-- FOTO 7 -->
 
@@ -687,51 +653,39 @@ Las enormes formaciones que dominan el sendero pasan a convertirse en pequeñas 
 
 </a>
 
-
-
 <h2>Vida sobre los acantilados</h2>
-
 
 <p>
 Fraguerau no es únicamente un corredor geológico.
 </p>
 
-
 <p>
 Las paredes verticales, los bosques y las repisas inaccesibles crean una extraordinaria variedad de hábitats.
 </p>
-
 
 <p>
 Sobre el desfiladero, una de las siluetas más características es la del buitre leonado.
 </p>
 
-
 <p>
 Estas enormes aves aprovechan las columnas de aire caliente ascendente para ganar altura, girando durante largos periodos sin apenas mover las alas.
 </p>
-
 
 <p>
 Desde el sendero pueden parecer inicialmente pequeños puntos oscuros en el cielo. Solo cuando uno de ellos pasa más cerca de los acantilados se aprecia realmente su tamaño.
 </p>
 
-
 <p>
 El Montsant alberga también otras grandes aves rapaces, como el halcón peregrino y el águila real.
 </p>
-
 
 <p>
 La combinación de paredes rocosas y corrientes térmicas ascendentes convierte al macizo en un territorio especialmente favorable para las grandes aves planeadoras.
 </p>
 
-
 <p>
 Su presencia añade otra dimensión al paisaje. El desfiladero existe a nivel del suelo, pero gran parte de su fauna pertenece al mundo vertical que se extiende por encima.
 </p>
-
-
 
 <!-- FOTO 8 -->
 
@@ -745,167 +699,129 @@ Su presencia añade otra dimensión al paisaje. El desfiladero existe a nivel de
 
 </a>
 
-
-
 <h2>Las cabras montesas del Montsant</h2>
-
 
 <p>
 Pocos animales parecen estar mejor adaptados a este paisaje que la cabra montés.
 </p>
 
-
 <p>
 En el Montsant, encontrarlas ya no resulta algo excepcional.
 </p>
-
 
 <p>
 El terreno de conglomerado proporciona exactamente el tipo de entorno en el que estos animales se desenvuelven mejor: pendientes pronunciadas, estrechas repisas, roca expuesta y recorridos entre acantilados que parecen imposibles.
 </p>
 
-
 <p>
 Observar cómo se desplazan cambia la forma de mirar la montaña.
 </p>
-
 
 <p>
 Una pared que para una persona parece casi vertical se convierte en una ruta. Una pequeña protuberancia en la roca pasa a ser un lugar donde apoyarse. Un hueco entre dos formaciones se transforma en un paso natural.
 </p>
 
-
 <p>
 Su capacidad para moverse por estos paisajes hace visible de manera inmediata la relación entre geología y fauna.
 </p>
-
 
 <p>
 La recuperación y expansión de la cabra montés en el Montsant constituye además una de las historias de fauna más interesantes del macizo. Después de desaparecer de la zona, estos animales comenzaron a recolonizar las montañas y hoy han vuelto a convertirse en una presencia habitual entre los acantilados.
 </p>
 
-
-
 <h2>Un río entre la piedra</h2>
-
 
 <p>
 En el centro de toda esta historia se encuentra el río Montsant.
 </p>
 
-
 <p>
 Es el elemento que conecta prácticamente todas las partes de Fraguerau.
 </p>
-
 
 <p>
 El agua ayudó a ampliar fracturas en el conglomerado. Profundizó pasos a través de la montaña. Creó pozas como Les Cadolles Fondes y sigue manteniendo un entorno completamente diferente en el fondo del desfiladero.
 </p>
 
-
 <p>
 Durante los periodos secos del clima mediterráneo, el río puede parecer tranquilo y frágil.
 </p>
-
 
 <p>
 Después de lluvias intensas, ese mismo cauce puede cambiar rápidamente, revelando la enorme capacidad erosiva que adquiere el agua cuando queda confinada entre paredes de roca.
 </p>
 
-
 <p>
 A lo largo del río, la vegetación se vuelve más densa y la temperatura puede sentirse claramente distinta a la de las laderas expuestas situadas por encima.
 </p>
-
 
 <p>
 Ese contraste es una de las características esenciales de Fraguerau: un corredor más húmedo atravesando una montaña mediterránea mucho más seca.
 </p>
 
-
-
 <h2>La historia humana de Fraguerau</h2>
-
 
 <p>
 Mucho antes de que Fraguerau se convirtiera en una ruta de senderismo, las personas ya recorrían estas montañas.
 </p>
 
-
 <p>
 Los caminos conectaban pueblos, campos y zonas aisladas del macizo. Muros de piedra seca, terrazas agrícolas y antiguos refugios todavía conservan señales de esa relación entre las personas y un paisaje difícil.
 </p>
-
 
 <p>
 Pero el Montsant también quedó asociado a otro tipo de presencia humana: la búsqueda de soledad.
 </p>
 
-
 <p>
 Las cuevas, baumas y valles apartados atrajeron a ermitaños que buscaban aislamiento del mundo exterior.
 </p>
-
 
 <p>
 El nombre Fraguerau está tradicionalmente relacionado con <strong>Fra Guerau</strong>, uno de los ermitaños vinculados a la historia de esta parte del Montsant.
 </p>
 
-
 <p>
 No muy lejos del desfiladero se encuentra la pequeña ermita de <strong>Sant Bartomeu de Fraguerau</strong>, escondida entre las formaciones rocosas y el bosque.
 </p>
-
 
 <p>
 Su ubicación solo se comprende realmente después de recorrer el valle.
 </p>
 
-
 <p>
 Los mismos acantilados que hacen espectacular el paisaje también crean aislamiento. El río, el bosque y las enormes paredes de conglomerado separan el interior de Fraguerau del mundo situado más allá del macizo.
 </p>
-
 
 <p>
 Durante siglos, ese aislamiento fue precisamente lo que algunas personas vinieron a buscar aquí.
 </p>
 
-
-
 <h2>Un lugar de silencio</h2>
-
 
 <p>
 Una de las cualidades más memorables del Congost de Fraguerau es algo que resulta difícil fotografiar.
 </p>
 
-
 <p>
 El silencio.
 </p>
-
 
 <p>
 A medida que la ruta se aleja de la carretera, los sonidos de la vida moderna desaparecen poco a poco.
 </p>
 
-
 <p>
 Lo que queda es el movimiento del agua, el viento atravesando los árboles, los pasos sobre la roca y el canto ocasional de algún ave en lo alto de los acantilados.
 </p>
-
 
 <p>
 No existe un único mirador capaz de explicar Fraguerau.
 </p>
 
-
 <p>
 La experiencia está formada por pequeños descubrimientos.
 </p>
-
 
 <p>
 Una poza excavada en la piedra.
@@ -919,60 +835,47 @@ Un buitre girando sobre el desfiladero.
 Dos cabras montesas inmóviles sobre una repisa que parece imposible de alcanzar.
 </p>
 
-
 <p>
 Por separado, son pequeños momentos.
 </p>
-
 
 <p>
 Juntos, cuentan la historia del lugar.
 </p>
 
-
-
 <h2>Donde la roca y el tiempo se encuentran</h2>
-
 
 <p>
 El Congost de Fraguerau es mucho más que un hermoso destino para caminar.
 </p>
 
-
 <p>
 Es un paisaje donde conviven diferentes escalas de tiempo.
 </p>
-
 
 <p>
 El conglomerado conserva el recuerdo de ríos que atravesaron esta región hace millones de años.
 </p>
 
-
 <p>
 El desfiladero conserva la huella de la lenta persistencia de la erosión.
 </p>
-
 
 <p>
 La ermita y los antiguos caminos conservan siglos de presencia humana.
 </p>
 
-
 <p>
 Y los animales que siguen desplazándose por los acantilados recuerdan que este paisaje, aparentemente duro y mineral, continúa lleno de vida.
 </p>
-
 
 <p>
 Desde Les Cadolles Fondes hasta las zonas más profundas del desfiladero, casi todo aquí ha sido modelado por una misma relación entre piedra y agua.
 </p>
 
-
 <p>
 El proceso continúa hoy.
 </p>
-
 
 <p>
 La lluvia penetra en las fracturas.
@@ -986,22 +889,27 @@ Las cabras montesas siguen cruzando los acantilados.
 Los buitres se elevan sobre ellas.
 </p>
 
-
 <p>
 Fraguerau no necesita un único instante espectacular para resultar extraordinario.
 </p>
-
 
 <p>
 Su historia ha sido escrita lentamente.
 </p>
 
-
 <p class="quote">
 "Aquí, el paisaje no está definido por un único momento, sino por millones de años de agua, piedra y silencio."
 </p>
 
+<!-- ARTÍCULOS RELACIONADOS -->
 
+<section class="related-stories">
+
+<h2>Artículos relacionados</h2>
+
+<div class="related-grid" id="relatedStories"></div>
+
+</section>
 
 <!-- PHOTO NOTES -->
 
@@ -1030,10 +938,7 @@ Fotógrafo: Carles Torres
 
 </div>
 
-
 </div>
-
-
 
 <!-- FANCYBOX -->
 
@@ -1045,6 +950,140 @@ Fancybox.bind("[data-fancybox='gallery']", {});
 
 </script>
 
+<!-- ARTÍCULOS RELACIONADOS SCRIPT -->
+
+<script>
+
+const relatedStories = [
+
+  {
+    title: "The Fragile Balance of Nature",
+    location: "Thingvellir · Islandia",
+    url: "the-fragile-balance-of-nature.html",
+    image: "../img/portada.jpg"
+  },
+
+  {
+    title: "Where Mountains Meet the Sky",
+    location: "Bachalpsee · Suiza",
+    url: "where-mountains-meet-the-sky.html",
+    image: "../img/portada1.jpg"
+  },
+
+  {
+    title: "The Edge of the Alps",
+    location: "Saxer Lücke · Suiza",
+    url: "the-edge-of-the-alps.html",
+    image: "../img/SaxerHorizontal.jpg"
+  },
+
+  {
+    title: "Giants of the North",
+    location: "Húsavík · Islandia",
+    url: "Giants-of-the-North.html",
+    image: "../img/Ballena3.jpg"
+  },
+
+  {
+    title: "Congost de Fraguerau",
+    location: "Montsant · España",
+    url: "Congost-de-Fraguerau.html",
+    image: "../img/congost2.jpg"
+  },
+
+  {
+    title: "Into the Wild",
+    location: "Kvaløya · Noruega",
+    url: "into-the-wild.html",
+    image: "../img/Foto1.jpg"
+  },
+
+  {
+    title: "Between Sea and Stone",
+    location: "Henningsvær · Noruega",
+    url: "between-sea-and-stone.html",
+    image: "../img/Foto2.JPG"
+  },
+
+  {
+    title: "The Mountain of Legends",
+    location: "Kirkjufell · Islandia",
+    url: "the-mountain-of-legends.html",
+    image: "../img/mount1.jpg"
+  },
+
+  {
+    title: "Cathedrals of Stone",
+    location: "Tre Cime · Dolomitas",
+    url: "cathedrals-of-stone.html",
+    image: "../img/trescime3.jpg"
+  },
+
+  {
+    title: "The Pearl of the Dolomites",
+    location: "Lago di Braies · Dolomitas",
+    url: "The-Pearl-of-the-Dolomites.html",
+    image: "../img/Dibraiesbarcos.jpg"
+  },
+
+  {
+    title: "The Lost Valley",
+    location: "Ordesa · España",
+    url: "The-Lost-Valley.html",
+    image: "../img/Ordesa2.jpg"
+  },
+
+  {
+    title: "Valley of Waterfalls",
+    location: "Lauterbrunnen · Suiza",
+    url: "Valley-of-Waterfalls.html",
+    image: "../img/Lauterbrunnen2.jpg"
+  },
+
+  {
+    title: "Silent Giants",
+    location: "Jökulsárlón · Islandia",
+    url: "silent-giants.html",
+    image: "../img/iceberg1.jpg"
+  }
+
+];
+
+const currentArticle =
+  window.location.pathname.split("/").pop() ||
+  "Congost-de-Fraguerau.html";
+
+const availableStories = relatedStories.filter(
+  story => story.url !== currentArticle
+);
+
+const shuffledStories = [...availableStories]
+  .sort(() => Math.random() - 0.5)
+  .slice(0, 3);
+
+document.getElementById("relatedStories").innerHTML =
+  shuffledStories.map(story => `
+
+    <a href="${story.url}" class="related-card">
+
+      <div class="related-card-image">
+
+        <img
+          src="${story.image}"
+          alt="${story.title}"
+          loading="lazy"
+        >
+
+      </div>
+
+      <h3>${story.title}</h3>
+      <p>${story.location}</p>
+
+    </a>
+
+  `).join("");
+
+</script>
 
 </body>
 

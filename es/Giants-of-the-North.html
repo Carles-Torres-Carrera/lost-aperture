@@ -75,7 +75,6 @@ content="Un encuentro fotográfico con ballenas jorobadas y la fauna marina de H
 <meta name="twitter:image"
 content="https://lostaperture.com/img/Ballena3.jpg">
 
-
 <!-- ================================= -->
 <!-- STRUCTURED DATA / JSON-LD -->
 <!-- ================================= -->
@@ -107,11 +106,11 @@ content="https://lostaperture.com/img/Ballena3.jpg">
 }
 </script>
 
-
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
 
 <style>
+
 body{
   margin:0;
   font-family:'Inter', sans-serif;
@@ -120,12 +119,14 @@ body{
 }
 
 /* HERO */
+
 .hero{
   height:55vh;
   background:url('../img/Ballena4.jpg') center /cover no-repeat;
 }
 
 /* CONTENT */
+
 .content{
   max-width:800px;
   margin:60px auto;
@@ -158,6 +159,7 @@ body{
   margin-bottom:20px;
   color:#111;
 }
+
 .content p{
   line-height:1.8;
   color:#444;
@@ -165,6 +167,7 @@ body{
 }
 
 /* BACK LINK */
+
 .back{
   position:absolute;
   top:20px;
@@ -178,26 +181,26 @@ body{
   width:100%;
   margin:30px 0;
   border-radius:8px;
-  transition: transform .35s ease;
+  transition:transform .35s ease;
 }
 
 .post-img:hover{
-    transform: scale(1.02);
+  transform:scale(1.02);
 }
 
 a[data-fancybox],
 a[data-fancybox]:focus,
 a[data-fancybox]:active,
-a[data-fancybox]:visited {
-    outline: none !important;
-    border: none !important;
-    box-shadow: none !important;
+a[data-fancybox]:visited{
+  outline:none !important;
+  border:none !important;
+  box-shadow:none !important;
 }
 
-a[data-fancybox] img {
-    outline: none !important;
-    border: none !important;
-    box-shadow: none !important;
+a[data-fancybox] img{
+  outline:none !important;
+  border:none !important;
+  box-shadow:none !important;
 }
 
 .quote{
@@ -209,14 +212,79 @@ a[data-fancybox] img {
 }
 
 .post-video{
-    width:100%;
-    margin:30px 0;
-    border-radius:8px;
+  width:100%;
+  margin:30px 0;
+  border-radius:8px;
 }
 
-/*mobile*/
+/* RELATED STORIES */
+
+.related-stories{
+  margin-top:70px;
+}
+
+.related-stories h2{
+  margin-bottom:30px;
+}
+
+.related-grid{
+  display:grid;
+  grid-template-columns:repeat(3, 1fr);
+  gap:22px;
+}
+
+.related-card{
+  text-decoration:none;
+  color:#111;
+  display:block;
+}
+
+.related-card-image{
+  aspect-ratio:3/2;
+  overflow:hidden;
+  border-radius:8px;
+  margin-bottom:14px;
+}
+
+.related-card img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+  transition:transform .4s ease;
+}
+
+.related-card:hover img{
+  transform:scale(1.04);
+}
+
+.related-card h3{
+  font-family:'Playfair Display';
+  font-size:1.15em;
+  margin:0 0 6px;
+  line-height:1.25;
+}
+
+.related-card p{
+  font-size:0.75em;
+  letter-spacing:1.5px;
+  text-transform:uppercase;
+  color:#888;
+  margin:0;
+}
+
+/* MOBILE */
 
 @media (max-width:768px){
+
+  .related-grid{
+    grid-template-columns:1fr;
+    gap:35px;
+  }
+
+  .related-card h3{
+    font-size:1.3em;
+  }
 
   .content h1{
     font-size:2.2em;
@@ -231,6 +299,7 @@ a[data-fancybox] img {
 </style>
 
 <!-- Google Analytics -->
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-3FK968N34L"></script>
 
 <script>
@@ -250,7 +319,7 @@ gtag('config', 'G-3FK968N34L');
 <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
 
 <script>
-  Fancybox.bind("[data-fancybox]", {});
+Fancybox.bind("[data-fancybox]", {});
 </script>
 
 <body>
@@ -295,7 +364,10 @@ Ver emerger a enormes ballenas jorobadas de las oscuras aguas del Atlántico Nor
    data-fancybox="gallery"
    data-caption="Ballena jorobada emergiendo en la bahía de Skjálfandi, Húsavík, Islandia">
 
-<img src="../img/Ballena4.jpg" alt="Ballena jorobada emergiendo en la bahía de Skjálfandi, Húsavík, Islandia" class="post-img">
+<img src="../img/Ballena4.jpg"
+     alt="Ballena jorobada emergiendo en la bahía de Skjálfandi, Húsavík, Islandia"
+     class="post-img">
+
 </a>
 
 <h2>Por qué Húsavík es la capital de las ballenas en Islandia</h2>
@@ -308,7 +380,10 @@ La fama de Húsavík como uno de los mejores destinos del mundo para el avistami
    data-fancybox="gallery"
    data-caption="El colorido puerto de Húsavík, puerta de acceso a algunas de las mejores aguas del mundo para observar ballenas">
 
-<img src="../img/Husavik.jpg" alt="El colorido puerto de Húsavík, puerta de acceso a algunas de las mejores aguas del mundo para observar ballenas" class="post-img">
+<img src="../img/Husavik.jpg"
+     alt="El colorido puerto de Húsavík, puerta de acceso a algunas de las mejores aguas del mundo para observar ballenas"
+     class="post-img">
+
 </a>
 
 <p>
@@ -323,7 +398,10 @@ A diferencia de otros destinos donde el avistamiento nunca está garantizado, H�
    data-fancybox="gallery"
    data-caption="Ballena jorobada observada durante una expedición en lancha RIB desde Húsavík, Islandia">
 
-<img src="../img/Ballena3.jpg" alt="Ballena jorobada observada durante una expedición en lancha RIB desde Húsavík, Islandia" class="post-img">
+<img src="../img/Ballena3.jpg"
+     alt="Ballena jorobada observada durante una expedición en lancha RIB desde Húsavík, Islandia"
+     class="post-img">
+
 </a>
 
 <h2>Frente a frente con los gigantes</h2>
@@ -341,8 +419,8 @@ Momentos así resultan imposibles de olvidar. Una ballena jorobada emergió a ta
 </p>
 
 <video class="post-video" controls preload="metadata">
-    <source src="../video/whale-breath.mp4" type="video/mp4">
-      Tu navegador no admite la reproducción de vídeo.
+  <source src="../video/whale-breath.mp4" type="video/mp4">
+  Tu navegador no admite la reproducción de vídeo.
 </video>
 
 <p>
@@ -357,7 +435,10 @@ A pesar de su gigantesco tamaño, las ballenas jorobadas se desplazan con una el
    data-fancybox="gallery"
    data-caption="Ballena jorobada observada durante una expedición en lancha RIB desde Húsavík, Islandia">
 
-<img src="../img/Husavik2.jpg" alt="Ballena jorobada observada durante una expedición en lancha RIB desde Húsavík, Islandia" class="post-img">
+<img src="../img/Husavik2.jpg"
+     alt="Ballena jorobada observada durante una expedición en lancha RIB desde Húsavík, Islandia"
+     class="post-img">
+
 </a>
 
 <h2>La vida de una ballena jorobada</h2>
@@ -382,7 +463,10 @@ Muchas de las ballenas que se alimentan en torno a Islandia pasan el verano en e
    data-fancybox="gallery"
    data-caption="La inconfundible cola de una ballena jorobada desapareciendo bajo las aguas del Atlántico Norte">
 
-<img src="../img/Ballena1.jpg" alt="La inconfundible cola de una ballena jorobada desapareciendo bajo las aguas del Atlántico Norte" class="post-img">
+<img src="../img/Ballena1.jpg"
+     alt="La inconfundible cola de una ballena jorobada desapareciendo bajo las aguas del Atlántico Norte"
+     class="post-img">
+
 </a>
 
 <h2>Un viajero de 40 toneladas</h2>
@@ -491,13 +575,17 @@ De repente, el océano parece más inmenso. El mundo, mucho más antiguo. Y dura
 Entre todos los recuerdos que conservo de Islandia, aquel encuentro con los gigantes del norte sigue siendo una de las experiencias más intensas e inolvidables de mi vida.
 </p>
 
+<!-- ARTÍCULOS RELACIONADOS -->
+
+<section class="related-stories">
+
 <h2>Artículos relacionados</h2>
 
-<p>
-Continúa descubriendo Islandia en
-<a href="where-earth-comes-alive.html">Donde la Tierra cobra vida</a>,
-un viaje fotográfico entre volcanes, cascadas y los paisajes más salvajes que convierten a Islandia en uno de los destinos más fascinantes del planeta.
-</p>
+<div class="related-grid" id="relatedStories"></div>
+
+</section>
+
+<!-- FICHA FOTOGRÁFICA -->
 
 <h2>Ficha fotográfica</h2>
 
@@ -521,6 +609,140 @@ Fotógrafo: Carles Torres
 
 </div>
 
+<!-- ARTÍCULOS RELACIONADOS SCRIPT -->
+
+<script>
+
+const relatedStories = [
+
+  {
+    title: "The Fragile Balance of Nature",
+    location: "Thingvellir · Islandia",
+    url: "the-fragile-balance-of-nature.html",
+    image: "../img/portada.jpg"
+  },
+
+  {
+    title: "Where Mountains Meet the Sky",
+    location: "Bachalpsee · Suiza",
+    url: "where-mountains-meet-the-sky.html",
+    image: "../img/portada1.jpg"
+  },
+
+  {
+    title: "The Edge of the Alps",
+    location: "Saxer Lücke · Suiza",
+    url: "the-edge-of-the-alps.html",
+    image: "../img/SaxerHorizontal.jpg"
+  },
+
+  {
+    title: "Giants of the North",
+    location: "Húsavík · Islandia",
+    url: "Giants-of-the-North.html",
+    image: "../img/Ballena3.jpg"
+  },
+
+  {
+    title: "Congost de Fraguerau",
+    location: "Montsant · España",
+    url: "Congost-de-Fraguerau.html",
+    image: "../img/congost2.jpg"
+  },
+
+  {
+    title: "Into the Wild",
+    location: "Kvaløya · Noruega",
+    url: "into-the-wild.html",
+    image: "../img/Foto1.jpg"
+  },
+
+  {
+    title: "Between Sea and Stone",
+    location: "Henningsvær · Noruega",
+    url: "between-sea-and-stone.html",
+    image: "../img/Foto2.JPG"
+  },
+
+  {
+    title: "The Mountain of Legends",
+    location: "Kirkjufell · Islandia",
+    url: "the-mountain-of-legends.html",
+    image: "../img/mount1.jpg"
+  },
+
+  {
+    title: "Cathedrals of Stone",
+    location: "Tre Cime · Dolomitas",
+    url: "cathedrals-of-stone.html",
+    image: "../img/trescime3.jpg"
+  },
+
+  {
+    title: "The Pearl of the Dolomites",
+    location: "Lago di Braies · Dolomitas",
+    url: "The-Pearl-of-the-Dolomites.html",
+    image: "../img/Dibraiesbarcos.jpg"
+  },
+
+  {
+    title: "The Lost Valley",
+    location: "Ordesa · España",
+    url: "The-Lost-Valley.html",
+    image: "../img/Ordesa2.jpg"
+  },
+
+  {
+    title: "Valley of Waterfalls",
+    location: "Lauterbrunnen · Suiza",
+    url: "Valley-of-Waterfalls.html",
+    image: "../img/Lauterbrunnen2.jpg"
+  },
+
+  {
+    title: "Silent Giants",
+    location: "Jökulsárlón · Islandia",
+    url: "silent-giants.html",
+    image: "../img/iceberg1.jpg"
+  }
+
+];
+
+const currentArticle =
+  window.location.pathname.split("/").pop() ||
+  "Giants-of-the-North.html";
+
+const availableStories = relatedStories.filter(
+  story => story.url !== currentArticle
+);
+
+const shuffledStories = [...availableStories]
+  .sort(() => Math.random() - 0.5)
+  .slice(0, 3);
+
+document.getElementById("relatedStories").innerHTML =
+  shuffledStories.map(story => `
+
+    <a href="${story.url}" class="related-card">
+
+      <div class="related-card-image">
+
+        <img
+          src="${story.image}"
+          alt="${story.title}"
+          loading="lazy"
+        >
+
+      </div>
+
+      <h3>${story.title}</h3>
+      <p>${story.location}</p>
+
+    </a>
+
+  `).join("");
+
+</script>
 
 </body>
 </html>
