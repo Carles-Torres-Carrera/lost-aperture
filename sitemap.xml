@@ -469,4 +469,51 @@
       href="https://lostaperture.com/Congost-de-Fraguerau.html" />
   </url>
 
+  <!-- ================================= -->
+  <!-- GOODS — ENGLISH -->
+  <!-- ================================= -->
+
+  <url>
+    <loc>https://lostaperture.com/merch.html</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://lostaperture.com/merch.html" />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://lostaperture.com/es/merch.html" />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://lostaperture.com/merch.html" />
+  </url>
+
+
+  <!-- ================================= -->
+  <!-- GOODS — SPANISH -->
+  <!-- ================================= -->
+
+  <url>
+    <loc>https://lostaperture.com/es/merch.html</loc>
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://lostaperture.com/merch.html" />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="es"
+      href="https://lostaperture.com/es/merch.html" />
+
+    <xhtml:link
+      rel="alternate"
+      hreflang="x-default"
+      href="https://lostaperture.com/merch.html" />
+  </url>
+
 </urlset>
