@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -19,21 +21,21 @@ content="A photographic journey through Jökulsárlón Glacier Lagoon in Iceland
 <meta name="author" content="Carles Torres">
 
 <link rel="canonical"
-href="https://lostaperture.com/silent-giants.html">
+href="https://lostaperture.com/silent-giants">
 
 <!-- LANGUAGE VERSIONS -->
 
 <link rel="alternate"
 hreflang="en"
-href="https://lostaperture.com/silent-giants.html">
+href="https://lostaperture.com/silent-giants">
 
 <link rel="alternate"
 hreflang="es"
-href="https://lostaperture.com/es/silent-giants.html">
+href="https://lostaperture.com/es/silent-giants">
 
 <link rel="alternate"
 hreflang="x-default"
-href="https://lostaperture.com/silent-giants.html">
+href="https://lostaperture.com/silent-giants">
 
 <!-- OPEN GRAPH -->
 
@@ -50,7 +52,7 @@ content="https://lostaperture.com/img/iceberg1.jpg">
 content="article">
 
 <meta property="og:url"
-content="https://lostaperture.com/silent-giants.html">
+content="https://lostaperture.com/silent-giants">
 
 <meta property="og:site_name"
 content="Lost Aperture">
@@ -88,10 +90,10 @@ content="https://lostaperture.com/img/iceberg1.jpg">
   "image": [
     "https://lostaperture.com/img/iceberg1.jpg"
   ],
-  "url": "https://lostaperture.com/silent-giants.html",
+  "url": "https://lostaperture.com/silent-giants",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://lostaperture.com/silent-giants.html"
+    "@id": "https://lostaperture.com/silent-giants"
   },
   "author": {
     "@type": "Person",
@@ -107,6 +109,7 @@ content="https://lostaperture.com/img/iceberg1.jpg">
 </script>
 
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css">
 
 <style>
@@ -215,6 +218,8 @@ a[data-fancybox] img{
   width:100%;
   margin:30px 0;
   border-radius:8px;
+  display:block;
+  background:#000;
 }
 
 /* RELATED STORIES */
@@ -328,7 +333,7 @@ Fancybox.bind("[data-fancybox]", {});
 
 <body>
 
-<a href="index.html" class="back">← Back</a>
+<a href="/" class="back">← Back</a>
 
 <div class="hero"></div>
 
@@ -418,7 +423,14 @@ This unique combination of active volcanoes and enormous glaciers gave Iceland i
 The scale of Jökulsárlón is difficult to capture in a single photograph. Watching the silent movement of ice across the lagoon offers a far more immersive perspective.
 </p>
 
-<video class="post-video" controls preload="metadata">
+<!-- VIDEO 1 -->
+
+<video
+  class="post-video"
+  controls
+  playsinline
+  preload="metadata"
+  poster="img/iceberg2.jpg">
   <source src="video/foca1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -485,7 +497,14 @@ A seal's body contains so much insulating fat that the freezing waters of Jökul
 One of the highlights of visiting Jökulsárlón is observing seals in their natural habitat. Perfectly adapted to the cold waters of the North Atlantic, they move effortlessly through an environment that appears almost hostile to human life.
 </p>
 
-<video class="post-video" controls preload="metadata">
+<!-- VIDEO 2 -->
+
+<video
+  class="post-video"
+  controls
+  playsinline
+  preload="metadata"
+  poster="img/iceberg3.jpg">
   <source src="video/foca2.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -579,102 +598,102 @@ const relatedStories = [
   {
     title: "The Fragile Balance of Nature",
     location: "Thingvellir · Iceland",
-    url: "the-fragile-balance-of-nature.html",
+    url: "/the-fragile-balance-of-nature",
     image: "img/portada.jpg"
   },
 
   {
     title: "Where Mountains Meet the Sky",
     location: "Bachalpsee · Switzerland",
-    url: "where-mountains-meet-the-sky.html",
+    url: "/where-mountains-meet-the-sky",
     image: "img/portada1.jpg"
   },
 
   {
     title: "The Edge of the Alps",
     location: "Saxer Lücke · Switzerland",
-    url: "the-edge-of-the-alps.html",
+    url: "/the-edge-of-the-alps",
     image: "img/SaxerHorizontal.jpg"
   },
 
   {
     title: "Giants of the North",
     location: "Húsavík · Iceland",
-    url: "Giants-of-the-North.html",
+    url: "/Giants-of-the-North",
     image: "img/Ballena3.jpg"
   },
 
   {
     title: "Congost de Fraguerau",
     location: "Montsant · Spain",
-    url: "Congost-de-Fraguerau.html",
+    url: "/Congost-de-Fraguerau",
     image: "img/congost2.jpg"
   },
 
   {
     title: "Into the Wild",
     location: "Kvaløya · Norway",
-    url: "into-the-wild.html",
+    url: "/into-the-wild",
     image: "img/Foto1.jpg"
   },
 
   {
     title: "Between Sea and Stone",
     location: "Henningsvær · Norway",
-    url: "between-sea-and-stone.html",
+    url: "/between-sea-and-stone",
     image: "img/Foto2.JPG"
   },
 
   {
     title: "The Mountain of Legends",
     location: "Kirkjufell · Iceland",
-    url: "the-mountain-of-legends.html",
+    url: "/the-mountain-of-legends",
     image: "img/mount1.jpg"
   },
 
   {
     title: "Cathedrals of Stone",
     location: "Tre Cime · Dolomites",
-    url: "cathedrals-of-stone.html",
+    url: "/cathedrals-of-stone",
     image: "img/trescime3.jpg"
   },
 
   {
     title: "The Pearl of the Dolomites",
     location: "Lago di Braies · Dolomites",
-    url: "The-Pearl-of-the-Dolomites.html",
+    url: "/The-Pearl-of-the-Dolomites",
     image: "img/Dibraiesbarcos.jpg"
   },
 
   {
     title: "The Lost Valley",
     location: "Ordesa · Spain",
-    url: "The-Lost-Valley.html",
+    url: "/The-Lost-Valley",
     image: "img/Ordesa2.jpg"
   },
 
   {
     title: "Valley of Waterfalls",
     location: "Lauterbrunnen · Switzerland",
-    url: "Valley-of-Waterfalls.html",
+    url: "/Valley-of-Waterfalls",
     image: "img/Lauterbrunnen2.jpg"
   },
 
   {
     title: "Silent Giants",
     location: "Jökulsárlón · Iceland",
-    url: "silent-giants.html",
+    url: "/silent-giants",
     image: "img/iceberg1.jpg"
   }
 
 ];
 
 const currentArticle =
-  window.location.pathname.split("/").pop() ||
-  "silent-giants.html";
+  window.location.pathname.split("/").filter(Boolean).pop() || "";
 
 const availableStories = relatedStories.filter(
-  story => story.url !== currentArticle
+  story =>
+    story.url.split("/").filter(Boolean).pop() !== currentArticle
 );
 
 const shuffledStories = [...availableStories]
