@@ -960,19 +960,19 @@ gtag('config', 'G-3FK968N34L');
 
 </a>
 
-    <a href="between-sea-and-stone" class="card-link hidden-template">
+   <a href="The-Great-African-Mosaic" class="card-link">
 
-      <div class="card small">
+  <div class="card small">
 
-        <img src="../img/Foto2.JPG" alt="Between Sea and Stone">
+    <img src="../img/safari9-hero.jpg" alt="El Gran Mosaico Africano">
 
-        <div class="overlay small-overlay">
-          <h2>Between Sea and Stone</h2>
-        </div>
+    <div class="overlay small-overlay">
+      <h2>El Gran Mosaico Africano</h2>
+    </div>
 
-      </div>
+  </div>
 
-    </a>
+</a>
 
   </div>
 
@@ -1172,7 +1172,13 @@ document.querySelectorAll(".menu a").forEach(link => {
       href: "A-Kingdom-Without-Walls",
       image: "../img/leon3-hero.jpg",
       title: "Un Reino Sin Muros"
-    }
+    },
+
+    {
+  href: "The-Great-African-Mosaic",
+  image: "../img/safari9-hero.jpg",
+  title: "El Gran Mosaico Africano"
+}
 
 
   ];
@@ -1261,23 +1267,105 @@ document.querySelectorAll(".menu a").forEach(link => {
   }
 
   /* ================================
-     DAILY ROTATION
-     ================================ */
+   DAILY ROTATION
+   ================================ */
 
-  const rotatedBigStories =
-    rotate(
-      bigStories,
-      dayNumber
-    );
+const rotatedBigStories =
+  rotate(
+    bigStories,
+    dayNumber
+  );
 
-  const rotatedSmallStories =
-    rotate(
-      smallStories,
-      dayNumber
-    );
+const rotatedSmallStories =
+  rotate(
+    smallStories,
+    dayNumber
+  );
+
+
+/* ================================
+   DESKTOP / MOBILE ROTATION
+   ================================ */
+
+const isMobile =
+  window.matchMedia("(max-width: 768px)").matches;
+
+
+if(isMobile){
 
   /* ================================
-     BIG POSITIONS
+     MOBILE
+     ALL STORIES ROTATE TOGETHER
+     ================================ */
+
+  const allStories = [
+    ...bigStories,
+    ...smallStories
+  ];
+
+  const rotatedAllStories =
+    rotate(
+      allStories,
+      dayNumber
+    );
+
+  const allSlots =
+    Array.from(
+      document.querySelectorAll(
+        '.card-link:not(.hidden-template):has(.card)'
+      )
+    );
+
+  allSlots.forEach((link, index) => {
+
+    const story =
+      rotatedAllStories[index];
+
+    if(!story) return;
+
+    const img =
+      link.querySelector("img");
+
+    const title =
+      link.querySelector("h2");
+
+
+    /* ARTICLE LINK */
+
+    link.href =
+      story.href;
+
+
+    /* IMAGE */
+
+    if(img){
+
+      img.src =
+        story.image;
+
+      img.alt =
+        story.title;
+
+    }
+
+
+    /* TITLE */
+
+    if(title){
+
+      title.textContent =
+        story.title;
+
+    }
+
+  });
+
+
+}else{
+
+  /* ================================
+     DESKTOP
+     BIG AND SMALL STAY SEPARATED
      ================================ */
 
   fillSlots(
@@ -1285,14 +1373,13 @@ document.querySelectorAll(".menu a").forEach(link => {
     rotatedBigStories
   );
 
-  /* ================================
-     SMALL POSITIONS
-     ================================ */
-
   fillSlots(
     '.card-link:not(.hidden-template):has(.card.small)',
     rotatedSmallStories
   );
+
+}
+
 
 })();
 

@@ -383,6 +383,34 @@
       href="https://lostaperture.com/A-Kingdom-Without-Walls" />
   </url>
   
+    <!-- THE GREAT AFRICAN MOSAIC -->
+
+  <url>
+    <loc>https://lostaperture.com/The-Great-African-Mosaic</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/The-Great-African-Mosaic" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/The-Great-African-Mosaic" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/The-Great-African-Mosaic" />
+  </url>
+
+  <url>
+    <loc>https://lostaperture.com/es/The-Great-African-Mosaic</loc>
+
+    <xhtml:link rel="alternate" hreflang="en"
+      href="https://lostaperture.com/The-Great-African-Mosaic" />
+
+    <xhtml:link rel="alternate" hreflang="es"
+      href="https://lostaperture.com/es/The-Great-African-Mosaic" />
+
+    <xhtml:link rel="alternate" hreflang="x-default"
+      href="https://lostaperture.com/The-Great-African-Mosaic" />
+  </url>
+  
 
   <!-- ================================= -->
   <!-- GOODS — ENGLISH -->
